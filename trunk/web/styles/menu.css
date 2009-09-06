@@ -1,0 +1,208 @@
+/* 
+    Document   : menu
+    Created on : Oct 5, 2008, 10:27:56 PM
+    Author     : bartlomiej
+    Description:
+        This file describes the style of the menus.
+*/
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    
+    display: block;
+
+}
+
+/**
+ * a hack to prevent 1px gap between the tabbar menu and the content
+ */
+.content-horizontal {
+    margin-top: 0px;
+}
+
+.content-nomenu {
+    width: 800px;
+    text-align: justify;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.gwt-TabBarItem {
+    cursor: pointer;
+}
+
+.menu-horizontal .gwt-TabBarItem {
+    width: 140px;
+    height: 10px;
+    font-size: 12px;
+    font-variant: small-caps;
+    font-style: oblique;
+    
+    padding: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid #aaa;
+    
+    vertical-align: middle;
+    text-align: center;
+}
+
+.menu-horizontal .gwt-TabBarItem-selected {
+  font-weight: bold;
+}
+
+.menu-horizontal .gwt-TabBarRest {
+    border-left: 1px solid white;
+}
+
+.menu-horizontal .gwt-TabBarFirst {
+    border-right: 1px solid #aaaaaa;
+}
+
+.menu-level-2 .gwt-TabBarFirst {
+    visibility:collapse;
+    width: 0px;
+    height: 0px;
+}
+
+
+.menu-vertical {
+  width: 240px;
+  background: #fff;
+}
+
+.menu-vertical .gwt-TabBarItem {
+    width: 219px;
+    height: 70px;
+
+    font-size: 12px;
+    font-variant: small-caps;
+    font-style: oblique;
+    
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px solid #aaa;
+    
+    vertical-align: middle;
+    text-align: left;
+    
+}
+.menu-vertical .gwt-TabBarItem-selected {
+  font-weight: bold;
+}
+
+.menu-vertical.gwt-TabBarRest {
+    visibility: collapse;
+}
+
+.menu-vertical .gwt-TabBarFirst {
+     visibility: collapse; 
+}
+
+.menu-level-0 {
+    background: #008;
+    height: 60px;
+  background-image: url(../styles/menu-images/menu-background.png);
+}
+
+.menu-level-0 .gwt-TabBarFirst{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 240px;
+    height: 60px;
+    background-image: url(../styles/menu-images/logo.png);
+}
+
+.menu-level-0 .gwt-TabBarRest{
+    border: 0px;
+}
+.menu-level-0 .gwt-TabBarItem{
+    border:0px;
+    margin:0px;
+    padding:0px;
+        
+    width: 110px;
+    height: 30px;
+    
+    background: #fff;
+    
+    padding: 5px;
+    
+    margin-top: 10px;
+    margin-right: 5px;
+    
+    background-image: url(../styles/menu-images/tab-inactive-background.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    
+    font-size: 14px;
+}
+
+.menu-level-0 .gwt-TabBarItem-selected{
+    background: #dedede;
+    
+    /* border-bottom: 2px groove #fff; */
+    
+    height:40px;
+    padding-bottom: 10px;
+  
+    padding: 5px;
+    
+    margin-right: 5px;    
+
+    background-image: url(../styles/menu-images/tab-active.png);
+  
+    background-position: bottom left;
+    color: white;
+}
+
+/**
+ * The 'inside' of the top menu tabs
+ */
+.menu-level-0 .gwt-TabBarItem .gwt-Label, .menu-level-0 .gwt-TabBarItem .gwt-HTML{
+    padding-top: 8px;
+    margin-left: -5px;
+
+}
+.menu-level-0 .gwt-TabBarItem-selected .gwt-Label, .menu-level-0 .gwt-TabBarItem-selected .gwt-HTML{
+    padding-top: 12px;
+    margin-left: -5px;
+ }
+
+.content-level-0 {
+  background-repeat: repeat-x;
+  background-image: url(../styles/menu-images/content-background.png);
+  background-position: left top;
+}
+
+
+.RobotLabel{
+    width: 219px;
+ }
+ 
+.RobotLabel .RobotName{
+    
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 18px;
+}
+.gwt-TabBarItem-selected .RobotLabel .RobotName{
+    
+
+  font-weight: bold;
+}
+.RobotLabel .Table{
+    
+  text-align: right;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+
+

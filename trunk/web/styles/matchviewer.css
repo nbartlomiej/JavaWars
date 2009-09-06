@@ -1,0 +1,64 @@
+/* 
+    Document   : matchviewer
+    Created on : Nov 4, 2008, 1:14:08 AM
+    Author     : bartlomiej
+    Description:
+        The way a MatchViewer class is displayed
+*/
+
+
+
+.MatchViewerTable {
+    table-layout: fixed;
+}
+
+.MatchViewerTable td{
+  border-top: 1px solid #9b7; 
+  border-left: 1px solid #9b7; 
+  border-bottom: 1px solid #250; 
+  border-right: 1px solid #250; 
+}
+
+.MatchViewerTable .playerInfo{
+  overflow: hidden; 
+  width: 30px; 
+  height: 9px; 
+  font-size: 8px; 
+  color: #000; 
+}
+
+.MatchViewerTable .gems{
+  overflow: hidden; 
+  color: #aa0; 
+  background-color: #000;
+}
+
+/* Old stuff... ---------------- */
+
+.matchviewer {
+    background: url('../images/matchViewer/mvbackground.png');
+    margin: 5px;
+    border-spacing: 0px;
+    border: 1px solid #114400;
+}
+
+.matchviewer td:hover {
+    border: 1px solid #FFFFFF;
+}
+.matchviewer td {
+    border: 1px solid #114400;
+}
+
+.elevation1 {
+    background: url('../images/matchViewer/elevation1.gif');
+    background-repeat: no-repeat;
+}
+.elevation2 {
+    background: url('../images/matchViewer/elevation2.gif');
+    background-repeat: no-repeat;
+}
+.elevation3 {
+    background: url('../images/matchViewer/elevation3.gif');
+    background-repeat: no-repeat;
+}
+

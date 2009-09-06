@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+    
+    <bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource" >
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/javawars?characterEncoding=UTF-8&amp;useUnicode=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value="******"/>
+    </bean>
+    
+    <bean id="mySessionFactory" 
+    class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource"/>
+        <property name="mappingResources">
+            <list>
+                <value>./javawars/domain/User.hbm.xml</value>
+                <value>./javawars/domain/Robot.hbm.xml</value>
+                <value>./javawars/domain/MatchReport.hbm.xml</value>
+                <value>./javawars/domain/League.hbm.xml</value>
+                <value>./javawars/domain/IpAddress.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect
+                </prop>
+                <prop key="hibernate.hbm2ddl.auto">update
+                </prop>
+                <prop key="hibernate.c3p0.minPoolSize">5
+                </prop>
+                <prop key="hibernate.c3p0.maxPoolSize">10
+                </prop>
+                <prop key="hibernate.c3p0.timeout">600
+                </prop>
+                <prop key="hibernate.c3p0.max_statement">50
+                </prop>
+                <prop key="hibernate.c3p0.testConnectionOnCheckout">false
+                </prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="hibernateTemplate" 
+    class="org.springframework.orm.hibernate3.HibernateTemplate">
+        <property name="sessionFactory">
+            <ref bean="mySessionFactory"/>
+        </property>
+    </bean>
+    <bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory">
+            <ref local="mySessionFactory" />
+        </property>
+    </bean>
+    <bean id="pojoStore"
+		class="net.sf.hibernate4gwt.core.store.stateless.StatelessPojoStore" />
+    <bean id="hibernateBeanManager"
+		class="net.sf.hibernate4gwt.core.HibernateBeanManager">
+        <property name="pojoStore" ref="pojoStore" />
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+    <bean id="hibernateInterceptor" class="org.springframework.orm.hibernate3.HibernateInterceptor">
+        <property name="sessionFactory">
+            <ref bean="mySessionFactory"/>
+        </property>
+    </bean>
+    
+    <bean id="userDAO" class="javawars.server.dao.UserDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+
+    <bean id="robotDAO" class="javawars.server.dao.RobotDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+    
+    <bean id="leagueDAO" class="javawars.server.dao.LeagueDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+    
+    <bean id="matchReportDAO" class="javawars.server.dao.MatchReportDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+    
+    <bean id="ipAddressDAO" class="javawars.server.dao.IpAddressDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+        <property name="sessionFactory" ref="mySessionFactory" />
+    </bean>
+    
+
+    
+    <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+	<property name="mappings">
+		<map>
+			<entry key="/ServiceProvider" value-ref="HB4GWTRPCService" />
+		</map>
+	</property>
+    </bean>
+
+    <bean id="HB4GWTRPCService" class="org.gwtwidgets.server.spring.hb4gwt.HB4GWTRPCServiceExporter">
+	<property name="beanManager" ref="hibernateBeanManager" />
+	<property name="service" ref="serviceProvider" />
+    </bean>
+    
+    <bean id="serviceProviderTarget" class="javawars.server.services.ServiceProviderImpl">
+        <property name="userDAO" ref="userDAO" />
+        <property name="robotDAO" ref="robotDAO" />
+        <property name="leagueDAO" ref="leagueDAO" />
+        <property name="matchReportDAO" ref="matchReportDAO" />
+        <property name="ipAddressDAO" ref="ipAddressDAO" />
+        <!-- values for server -->
+        <!--
+        <property name="applicationPath" value="/home/organizacje/javawars/util/tomcat6/webapps/JavaWars/" />
+        <property name="robotsBinPath" value="/home/organizacje/javawars/util/tomcat6/bin/javawars/robots/" />
+        <property name="javac" value="/home/organizacje/javawars/util/jre15/bin/javac" />
+        -->
+        <!-- values for localhost -->
+        
+        <property name="applicationPath" value="/home/bartlomiej/Projects/20081001-JavaWars/JavaWars/build/web/" />
+        <property name="robotsBinPath" value="/home/bartlomiej/apache-tomcat-6.0.16/bin/javawars/robots/" />
+        <property name="javac" value="javac" />
+        
+    </bean>
+    
+    <bean id="serviceProvider" class="org.springframework.aop.framework.ProxyFactoryBean">
+    <property name="target" ref="serviceProviderTarget"/>
+    <property name="autodetectInterfaces" value="true"/>
+    <property name="interceptorNames">
+        <list>
+            <value>hibernateInterceptor</value>
+            <value>requestInjection</value>
+        </list>
+    </property>
+    </bean>
+    
+    <bean id="requestInjection" class="org.gwtwidgets.server.spring.RequestInjection">
+        <property name="requestSetterName" value="setRequest"/>
+        <property name="responseSetterName" value="setResponse"/>
+    </bean>
+    
+   <!-- <bean id="arkadia" class="javawars.domain.League" p:name="Arkadia"  /> -->
+    
+<bean id="launchMatch" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+  <property name="targetObject" ref="serviceProvider" />
+  <property name="targetMethod" value="doMatch" />
+</bean>
+
+<!--
+<bean id="launchMatchTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+    <property name="jobDetail" ref="launchMatch" />
+    <property name="cronExpression" value="0 */35 * * * ?" />
+</bean>
+ 
+ 
+<bean id="schedulerFactory" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+        <list>
+            <ref bean="launchMatchTrigger" />
+        </list>
+    </property>
+</bean>   
+-->
+</beans>
+

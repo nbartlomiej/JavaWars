@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="javawars.domain.League">
+    <id column="LEAGUE_ID" name="id">
+      <generator class="native"/>
+    </id>
+    <property name="name"/>
+    <property name="password"/>
+    <property name="description"/>
+    <property name="grasslandPercentage"/>
+    <property name="hillsPercentage"/>
+    <property name="mountainsPercentage"/>
+    <property name="gemPercentage"/>
+    <property name="scoreMultiplier"/>
+    <property name="shootingAllowed"/>
+    <property name="width"/>
+    <property name="height"/>
+    <property name="gameLength"/>
+    <property name="maxParticipants"/>
+    <property name="minScore"/>
+    <set inverse="true" name="users" table="USER_LEAGUE">
+      <key column="LEAGUE_ID"/>
+      <many-to-many class="javawars.domain.User" column="USER_ID"/>
+    </set>
+    <set inverse="true" name="matchReports" table="MATCH_LEAGUE">
+      <key column="LEAGUE_ID"/>
+      <many-to-many class="javawars.domain.MatchReport" column="MATCH_ID"/>
+    </set>
+  </class>
+</hibernate-mapping>

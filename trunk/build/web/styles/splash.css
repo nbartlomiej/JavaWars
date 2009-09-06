@@ -1,0 +1,49 @@
+/* 
+    Document   : splash
+    Created on : Nov 20, 2008, 10:28:30 PM
+    Author     : bartlomiej
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body { 
+    padding: 0px;
+    margin: 0px;
+  font-family: 'Times New Roman',Times,serif;
+}
+
+.top-bar {
+    background: #008;
+    height: 100px;
+    background-image: url(../styles/splash-images/menu-background.png);
+}
+
+.content{
+    margin-left: 20px;
+    margin-top: -20px;
+    
+  text-align: justify;
+}
+
+.content-text {
+    width: 600px;
+}
+
+.tiny-form {
+    background-image: url(../styles/splash-images/tiny-form-background.png);
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+  text-align: justify;
+  text-align: justify;
+  background-repeat: repeat-x;
+  background-position: top;
+}
