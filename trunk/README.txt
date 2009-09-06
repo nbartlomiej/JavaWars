@@ -1,5 +1,5 @@
 JavaWars README
-WWW: http://code.google.com/p/javawars/
+WWW: http://github.com/coriander/JavaWars
 
 
 1. Working with JavaWars:
