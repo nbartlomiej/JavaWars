@@ -112,7 +112,7 @@ class FirstRobot extends PageWithNoMenu {
             firstRobotVP.add(new HTML("Wejdź w zakładkę <b>'Warsztat'</b> i stwórz swojego pierwszego robota. " +
                     "Klikając na <b>'Edycja'</b> możesz zmieniać jego kod. W zakładce <b>'Testuj'</b> możesz porównać " +
                     "zachowanie różnych swoich robotów. "));
-            firstRobotVP.add(new HTML("<h4> Kod: </h4>"));
+            firstRobotVP.add(new HTML("<h4> Kod źródłowy: </h4>"));
             firstRobotVP.add(new HTML("Twój robot powinien implementować <b>interfejs JWRobot</b>; przykład poniżej: "));
 
             String interfaceSource = "package javawars.robots;\n\n" +
@@ -453,7 +453,7 @@ class LeaguesExplanation extends PageWithNoMenu{
 
     @Override
     public Composite getLabel() {
-        return new SimpleLabel("Liga");
+        return new SimpleLabel("Udział w ligach");
     }
 
     public LeaguesExplanation() {
