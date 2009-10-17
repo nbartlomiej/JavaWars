@@ -4,6 +4,14 @@ WWW: http://github.com/coriander/JavaWars
 
 1. Working with JavaWars:
 
+REQUIREMENTS:
+ -- Operating system: So far the development has been conducted on linux only (Ubuntu 8.04). Java is said to be portable, so theoretically it's possible to work upon JavaWars on any operating system.
+ -- Java: tested on 1.6.0_16, will definitely not work on java 1.4.
+ -- Server: Tomcat version 6. Currently tested on apache-tomcat-6.0.20; attention, project doesn't work on version 6.0.18 (errors when logging in).
+ -- Database: tested on MySql 5.0.51; should work also on PostGreSQL and others supported by Hibernate library 
+ -- IDE/editor: use your favourite.
+
+
 COMPILING
 Enter the project directory and execute 'ant'.
 This should compile all the java sources and then fire the gwt job to generate javascript files.
@@ -29,7 +37,6 @@ To publish the project copy the .war archive from the ./dist folder into the tom
 
 2. Project structure:
 
-./trunk         - the most up-to-date stable build
     ./src       - sources
     ./web       - www data, general config files
     ./build     - compiled binaries

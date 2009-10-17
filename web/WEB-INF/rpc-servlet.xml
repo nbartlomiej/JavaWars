@@ -12,7 +12,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost/javawars?characterEncoding=UTF-8&amp;useUnicode=true"/>
         <property name="username" value="root"/>
-        <property name="password" value="******"/>
+        <property name="password" value="********"/>
     </bean>
     
     <bean id="mySessionFactory" 
@@ -125,8 +125,8 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
         -->
         <!-- values for localhost -->
         
-        <property name="applicationPath" value="/home/bartlomiej/Projects/20081001-JavaWars/JavaWars/build/web/" />
-        <property name="robotsBinPath" value="/home/bartlomiej/apache-tomcat-6.0.16/bin/javawars/robots/" />
+        <property name="applicationPath" value="/home/bartlomiej/Projects/20090905-JavaWars/JavaWars/build/web/" />
+        <property name="robotsBinPath" value="/home/bartlomiej/Packages/apache-tomcat-6.0.20/bin/javawars/robots/" />
         <property name="javac" value="javac" />
         
     </bean>

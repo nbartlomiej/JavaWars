@@ -99,8 +99,19 @@ public class DataProvider {
     AsyncCallback<SessionConstants> initializeSessionConstants = new AsyncCallback<SessionConstants>() {
         public void onFailure(Throwable exception) {
             Window.alert("Wystąpił błąd połączenia, proszę się zalogować ponownie.");
+
+            /*
+            // for debug purposes; never used though
+            String stacktrace = "";
+            for( StackTraceElement s : exception.getStackTrace()){
+                stacktrace += s.toString() + " <br/> \n ";
+            }
+            Window.alert("Wystąpił błąd połączenia: " + exception.toString() + ", stacktrace: " + stacktrace );
+            */
+
             Window.open(GWT.getHostPageBaseURL()+"login.jsp", "_self", "");
-            //throw new ConnectException();
+            throw new ConnectException();
+            
         }
         public void onSuccess(SessionConstants result) {
             sessionConstants = result;

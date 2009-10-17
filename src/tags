@@ -1,0 +1,1133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Account	java/javawars/client/pages/Account.java	/^    public Account() {$/;"	m	class:Account
+Account	java/javawars/client/pages/Account.java	/^public class Account extends PageWithNoMenu {$/;"	c
+Alpha	java/javawars/robots/Alpha.java	/^public class Alpha implements JWRobot {$/;"	c
+Alpha	java/javawars/testrobots/Alpha.java	/^public class Alpha implements JWRobot {$/;"	c
+AuthenticationException	java/javawars/domain/exceptions/AuthenticationException.java	/^public class AuthenticationException extends Exception implements Serializable{$/;"	c
+Beta	java/javawars/robots/Beta.java	/^public class Beta implements JWRobot {$/;"	c
+Beta	java/javawars/testrobots/Beta.java	/^public class Beta {$/;"	c
+Board	java/javawars/client/ui/MatchViewerClassic.java	/^        public Board(Board source) {$/;"	m	class:MatchViewerClassic.Board
+Board	java/javawars/client/ui/MatchViewerClassic.java	/^        public Board(int newWidth, int newHeight) {$/;"	m	class:MatchViewerClassic.Board
+Board	java/javawars/client/ui/MatchViewerClassic.java	/^    class Board {$/;"	c	class:MatchViewerClassic
+ClickDecoratorPanel	java/javawars/client/ui/VerticalTabBar.java	/^    ClickDecoratorPanel(Widget child, ClickListener delegate) {$/;"	m	class:VerticalTabBar.ClickDecoratorPanel
+ClickDecoratorPanel	java/javawars/client/ui/VerticalTabBar.java	/^  private static final class ClickDecoratorPanel extends SimplePanel {$/;"	c	class:VerticalTabBar
+ClientConstants	java/javawars/client/data/ClientConstants.java	/^public class ClientConstants {$/;"	c
+CommunicationThread	java/javawars/JWMatch.java	/^    CommunicationThread(ThreadGroup threadGroup, JWRobotWrapper setRobot, ErisMessage erisMessage) {$/;"	m	class:CommunicationThread
+CommunicationThread	java/javawars/JWMatch.java	/^class CommunicationThread extends Thread {$/;"	c
+CompositeProxy	java/javawars/client/ui/CompositeProxy.java	/^    public CompositeProxy() {$/;"	m	class:CompositeProxy
+CompositeProxy	java/javawars/client/ui/CompositeProxy.java	/^public abstract class CompositeProxy extends Composite {$/;"	c
+ConnectException	java/javawars/client/data/exceptions/ConnectException.java	/^public class ConnectException extends RuntimeException{$/;"	c
+CreateRobot	java/javawars/client/pages/labels/CreateRobot.java	/^    public CreateRobot(final Workshop workshop) {$/;"	m	class:CreateRobot
+CreateRobot	java/javawars/client/pages/labels/CreateRobot.java	/^public class CreateRobot extends Composite{$/;"	c
+CreateRobotPage	java/javawars/client/pages/Workshop.java	/^        public CreateRobotPage() {$/;"	m	class:Workshop.CreateRobotPage
+CreateRobotPage	java/javawars/client/pages/Workshop.java	/^    class CreateRobotPage extends PageWithNoMenu {$/;"	c	class:Workshop
+DOWN	java/javawars/JWDirection.java	/^    UP, DOWN,$/;"	e	enum:JWDirection	file:
+DataProvider	java/javawars/client/data/DataProvider.java	/^    private DataProvider(){$/;"	m	class:DataProvider	file:
+DataProvider	java/javawars/client/data/DataProvider.java	/^public class DataProvider {$/;"	c
+DateFormatter	java/javawars/client/ui/DateFormatter.java	/^public class DateFormatter {$/;"	c
+Delta	java/javawars/robots/Delta.java	/^public class Delta implements JWRobot {$/;"	c
+Delta	java/javawars/testrobots/Delta.java	/^public class Delta implements JWRobot {$/;"	c
+Display	java/javawars/client/ui/MatchViewerClassic.java	/^        public Display(Board[] newBoards) {$/;"	m	class:MatchViewerClassic.Display
+Display	java/javawars/client/ui/MatchViewerClassic.java	/^    class Display extends Composite {$/;"	c	class:MatchViewerClassic
+E	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+EMAIL	java/javawars/domain/exceptions/Enum.java	/^        EMAIL,$/;"	e	enum:Enum.Parameter	file:
+Edit	java/javawars/client/pages/RobotPage.java	/^        public Edit() {$/;"	m	class:RobotPage.Edit
+Edit	java/javawars/client/pages/RobotPage.java	/^    private class Edit extends PageWithNoMenu {$/;"	c	class:RobotPage
+Entity	java/javawars/domain/exceptions/Enum.java	/^    public enum Entity implements Serializable {$/;"	g	class:Enum
+EntityNotFoundException	java/javawars/domain/exceptions/EntityNotFoundException.java	/^    public EntityNotFoundException() {$/;"	m	class:EntityNotFoundException
+EntityNotFoundException	java/javawars/domain/exceptions/EntityNotFoundException.java	/^    public EntityNotFoundException(Entity entity) {$/;"	m	class:EntityNotFoundException
+EntityNotFoundException	java/javawars/domain/exceptions/EntityNotFoundException.java	/^public class EntityNotFoundException  extends Exception implements Serializable {$/;"	c
+Enum	java/javawars/domain/exceptions/Enum.java	/^public class Enum  implements Serializable {$/;"	c
+ErisMessage	java/javawars/ErisMessage.java	/^    ErisMessage(int[][] createElevationMap, int[][] createGemMap, int[][] createRobotMap, JWRobotWrapper r) {$/;"	m	class:ErisMessage
+ErisMessage	java/javawars/ErisMessage.java	/^public final class ErisMessage {$/;"	c
+Error	java/javawars/actions/Error.java	/^    public Error() {$/;"	m	class:Error
+Error	java/javawars/actions/Error.java	/^public final class Error implements JWAction {$/;"	c
+Error	java/javawars/domain/exceptions/Enum.java	/^    public enum Error implements Serializable {$/;"	g	class:Enum
+FetchingData	java/javawars/client/pages/Introduction.java	/^    public FetchingData() {$/;"	m	class:FetchingData
+FetchingData	java/javawars/client/pages/Introduction.java	/^class FetchingData extends PageWithNoMenu{$/;"	c
+Field	java/javawars/client/ui/MatchViewerClassic.java	/^            public Field() {$/;"	m	class:MatchViewerClassic.Board.Field
+Field	java/javawars/client/ui/MatchViewerClassic.java	/^        public class Field {$/;"	c	class:MatchViewerClassic.Board
+Field	java/javawars/client/ui/MatchViewerFast.java	/^        public Field(int elevation, int gem, int player) {$/;"	m	class:MatchViewerFast.Field
+Field	java/javawars/client/ui/MatchViewerFast.java	/^    class Field {$/;"	c	class:MatchViewerFast
+Field	java/javawars/client/ui/MatchViewerFastest.java	/^        public Field(int elevation, int gem, int player) {$/;"	m	class:MatchViewerFastest.Field
+Field	java/javawars/client/ui/MatchViewerFastest.java	/^    class Field {$/;"	c	class:MatchViewerFastest
+Filter	java/javawars/server/Filter.java	/^public class Filter {$/;"	c
+FirstRobot	java/javawars/client/pages/Introduction.java	/^    public FirstRobot() {$/;"	m	class:FirstRobot
+FirstRobot	java/javawars/client/pages/Introduction.java	/^class FirstRobot extends PageWithNoMenu {$/;"	c
+Gamma	java/javawars/robots/Gamma.java	/^public class Gamma implements JWRobot {$/;"	c
+Gamma	java/javawars/testrobots/Gamma.java	/^public class Gamma extends Thread implements JWRobot {$/;"	c
+Guest	java/javawars/server/servlets/Guest.java	/^public class Guest extends HttpServlet {$/;"	c
+HistoryManager	java/javawars/client/HistoryManager.java	/^    public HistoryManager(Page rootPage) {$/;"	m	class:HistoryManager
+HistoryManager	java/javawars/client/HistoryManager.java	/^public class HistoryManager implements HistoryListener{$/;"	c
+INCORRECT_CHARACTER	java/javawars/domain/exceptions/Enum.java	/^        INCORRECT_CHARACTER,$/;"	e	enum:Enum.Error	file:
+IN_USE	java/javawars/domain/exceptions/Enum.java	/^        IN_USE,$/;"	e	enum:Enum.Error	file:
+IP_ADDRESS	java/javawars/domain/exceptions/Enum.java	/^        IP_ADDRESS,$/;"	e	enum:Enum.Entity	file:
+InactiveAccountException	java/javawars/domain/exceptions/InactiveAccountException.java	/^public class InactiveAccountException extends AuthenticationException{$/;"	c
+IncorrectParameterException	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    public IncorrectParameterException( Parameter parameter, Error error) {$/;"	m	class:IncorrectParameterException
+IncorrectParameterException	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    public IncorrectParameterException() {$/;"	m	class:IncorrectParameterException
+IncorrectParameterException	java/javawars/domain/exceptions/IncorrectParameterException.java	/^public class IncorrectParameterException extends Exception implements Serializable, IsSerializable{$/;"	c
+InteractiveCell	java/javawars/client/ui/MatchViewerClassic.java	/^            public InteractiveCell(int newX, int newY, int newElevation, int newGem, int newRobot) {$/;"	m	class:MatchViewerClassic.Display.InteractiveCell
+InteractiveCell	java/javawars/client/ui/MatchViewerClassic.java	/^        class InteractiveCell extends Composite {$/;"	c	class:MatchViewerClassic.Display
+Introduction	java/javawars/client/pages/Introduction.java	/^    public Introduction() {$/;"	m	class:Introduction
+Introduction	java/javawars/client/pages/Introduction.java	/^public class Introduction extends PageWithHorizontalMenu {$/;"	c
+IntroductionImages	java/javawars/client/pages/Introduction.java	/^    public IntroductionImages() {$/;"	m	class:IntroductionImages
+IntroductionImages	java/javawars/client/pages/Introduction.java	/^class IntroductionImages extends PageWithNoMenu {$/;"	c
+InvalidSessionException	java/javawars/domain/exceptions/InvalidSessionException.java	/^public class InvalidSessionException extends RuntimeException implements Serializable{$/;"	c
+IpAddress	java/javawars/domain/IpAddress.java	/^    public IpAddress() {$/;"	m	class:IpAddress
+IpAddress	java/javawars/domain/IpAddress.java	/^public class IpAddress implements Serializable{$/;"	c
+IpAddressDAO	java/javawars/server/dao/IpAddressDAO.java	/^public class IpAddressDAO extends HibernateDaoSupport{$/;"	c
+JWAction	java/javawars/JWAction.java	/^public interface JWAction {$/;"	i
+JWBoard	java/javawars/JWBoard.java	/^    JWBoard(ListIterator<JWRobotWrapper> robots, JWRules rules) {$/;"	m	class:JWBoard
+JWBoard	java/javawars/JWBoard.java	/^    private JWBoard(int newWidth, int newHeight, int[][] heights, int[][] gems, int[][] robots) {$/;"	m	class:JWBoard	file:
+JWBoard	java/javawars/JWBoard.java	/^public class JWBoard {$/;"	c
+JWDirection	java/javawars/JWDirection.java	/^public enum JWDirection {$/;"	g
+JWField	java/javawars/JWField.java	/^    public JWField(int newHeight, int newGem, int newRobot) {$/;"	m	class:JWField
+JWField	java/javawars/JWField.java	/^public class JWField {$/;"	c
+JWMatch	java/javawars/JWMatch.java	/^    public JWMatch(String robotsDeployPath, String robotsBinPath, JWRules setRules, String... paths) {$/;"	m	class:JWMatch
+JWMatch	java/javawars/JWMatch.java	/^    public JWMatch(String robotsDeployPath, String robotsBinPath, JWRules setRules, String[] authors, String[] names, String... paths) {$/;"	m	class:JWMatch
+JWMatch	java/javawars/JWMatch.java	/^public class JWMatch {$/;"	c
+JWRobot	java/javawars/JWRobot.java	/^public interface JWRobot {$/;"	i
+JWRobotWrapper	java/javawars/JWRobotWrapper.java	/^    public JWRobotWrapper(JWRobot newJwrobot, int newID, String newAuthor, String newName) {$/;"	m	class:JWRobotWrapper
+JWRobotWrapper	java/javawars/JWRobotWrapper.java	/^public class JWRobotWrapper {$/;"	c
+JWRules	java/javawars/JWRules.java	/^    public JWRules() {$/;"	m	class:JWRules
+JWRules	java/javawars/JWRules.java	/^public class JWRules {$/;"	c
+JWSecurityManager	java/javawars/JWSecurityManager.java	/^    public JWSecurityManager() {$/;"	m	class:JWSecurityManager
+JWSecurityManager	java/javawars/JWSecurityManager.java	/^public class JWSecurityManager {$/;"	c
+JWTerrainGenerator	java/javawars/JWTerrainGenerator.java	/^    public JWTerrainGenerator(){$/;"	m	class:JWTerrainGenerator
+JWTerrainGenerator	java/javawars/JWTerrainGenerator.java	/^    public JWTerrainGenerator(int grasslandOdds, int hillsOdds, int mountainsOdds, int gemOdds){$/;"	m	class:JWTerrainGenerator
+JWTerrainGenerator	java/javawars/JWTerrainGenerator.java	/^public class JWTerrainGenerator {$/;"	c
+JWXML	java/javawars/JWXML.java	/^    public JWXML(){}$/;"	m	class:JWXML
+JWXML	java/javawars/JWXML.java	/^public class JWXML {$/;"	c
+LEAGUE	java/javawars/domain/exceptions/Enum.java	/^        LEAGUE,$/;"	e	enum:Enum.Entity	file:
+LOGIN	java/javawars/domain/exceptions/Enum.java	/^        LOGIN,$/;"	e	enum:Enum.Parameter	file:
+League	java/javawars/domain/League.java	/^public class League implements Serializable {$/;"	c
+LeagueDAO	java/javawars/server/dao/LeagueDAO.java	/^public class LeagueDAO  extends HibernateDaoSupport {$/;"	c
+LeagueData	java/javawars/server/LeagueData.java	/^public class LeagueData {$/;"	c
+LeagueDetails	java/javawars/client/pages/LeaguePage.java	/^        public LeagueDetails() {$/;"	m	class:LeaguePage.LeagueDetails
+LeagueDetails	java/javawars/client/pages/LeaguePage.java	/^    class LeagueDetails extends PageWithNoMenu{$/;"	c	class:LeaguePage
+LeagueMatches	java/javawars/client/pages/LeaguePage.java	/^        public LeagueMatches() {$/;"	m	class:LeaguePage.LeagueMatches
+LeagueMatches	java/javawars/client/pages/LeaguePage.java	/^    class LeagueMatches extends PageWithNoMenu{$/;"	c	class:LeaguePage
+LeaguePage	java/javawars/client/pages/LeaguePage.java	/^    public LeaguePage(final League league, Leagues leagues) {$/;"	m	class:LeaguePage
+LeaguePage	java/javawars/client/pages/LeaguePage.java	/^public class LeaguePage extends PageWithHorizontalMenu {$/;"	c
+LeagueTable	java/javawars/client/pages/LeaguePage.java	/^        public LeagueTable() {$/;"	m	class:LeaguePage.LeagueTable
+LeagueTable	java/javawars/client/pages/LeaguePage.java	/^    class LeagueTable extends PageWithNoMenu{$/;"	c	class:LeaguePage
+Leagues	java/javawars/client/pages/Leagues.java	/^    public Leagues() {$/;"	m	class:Leagues
+Leagues	java/javawars/client/pages/Leagues.java	/^public class Leagues extends PageWithVerticalMenu {$/;"	c
+LeaguesExplanation	java/javawars/client/pages/Introduction.java	/^    public LeaguesExplanation() {$/;"	m	class:LeaguesExplanation
+LeaguesExplanation	java/javawars/client/pages/Introduction.java	/^class LeaguesExplanation extends PageWithNoMenu{$/;"	c
+Login	java/javawars/server/servlets/Login.java	/^public class Login extends HttpServlet {$/;"	c
+Logout	java/javawars/server/servlets/Logout.java	/^public class Logout extends HttpServlet {$/;"	c
+MALFORMED	java/javawars/domain/exceptions/Enum.java	/^        MALFORMED,$/;"	e	enum:Enum.Error	file:
+MATCH_REPORT	java/javawars/domain/exceptions/Enum.java	/^        MATCH_REPORT,$/;"	e	enum:Enum.Entity	file:
+MAX_CLASSES	java/javawars/server/services/ServiceProviderImpl.java	/^    private static final int MAX_CLASSES = 5;$/;"	f	class:ServiceProviderImpl	file:
+Main	java/javawars/Main.java	/^    public Main() {$/;"	m	class:Main
+Main	java/javawars/Main.java	/^public class Main {$/;"	c
+MainCommandline	java/javawars/MainCommandline.java	/^public class MainCommandline {$/;"	c
+MainEntryPoint	java/javawars/client/MainEntryPoint.java	/^public class MainEntryPoint implements EntryPoint {$/;"	c
+MatchReport	java/javawars/domain/MatchReport.java	/^    public MatchReport() {$/;"	m	class:MatchReport
+MatchReport	java/javawars/domain/MatchReport.java	/^public class MatchReport implements Serializable, Comparator{$/;"	c
+MatchReportDAO	java/javawars/server/dao/MatchReportDAO.java	/^public class MatchReportDAO extends HibernateDaoSupport {$/;"	c
+MatchReports	java/javawars/client/pages/RobotPage.java	/^        public MatchReports() {$/;"	m	class:RobotPage.MatchReports
+MatchReports	java/javawars/client/pages/RobotPage.java	/^    private class MatchReports extends PageWithNoMenu {$/;"	c	class:RobotPage
+MatchViewer	java/javawars/client/ui/MatchViewer.java	/^public abstract class MatchViewer extends Composite {$/;"	c
+MatchViewerClassic	java/javawars/client/ui/MatchViewerClassic.java	/^    public MatchViewerClassic() {$/;"	m	class:MatchViewerClassic
+MatchViewerClassic	java/javawars/client/ui/MatchViewerClassic.java	/^public class MatchViewerClassic extends MatchViewer {$/;"	c
+MatchViewerFast	java/javawars/client/ui/MatchViewerFast.java	/^    public MatchViewerFast() {$/;"	m	class:MatchViewerFast
+MatchViewerFast	java/javawars/client/ui/MatchViewerFast.java	/^public class MatchViewerFast extends MatchViewer {$/;"	c
+MatchViewerFastest	java/javawars/client/ui/MatchViewerFastest.java	/^    public MatchViewerFastest() {$/;"	m	class:MatchViewerFastest
+MatchViewerFastest	java/javawars/client/ui/MatchViewerFastest.java	/^public class MatchViewerFastest extends MatchViewer {$/;"	c
+Move	java/javawars/actions/Move.java	/^    public Move(JWDirection where) {$/;"	m	class:Move
+Move	java/javawars/actions/Move.java	/^public final class Move implements JWAction {$/;"	c
+Moving	java/javawars/client/pages/Introduction.java	/^    public Moving() {$/;"	m	class:Moving
+Moving	java/javawars/client/pages/Introduction.java	/^class Moving extends PageWithNoMenu{$/;"	c
+N	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+NAME	java/javawars/domain/exceptions/Enum.java	/^        NAME,$/;"	e	enum:Enum.Parameter	file:
+NE	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+NW	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+OTHER	java/javawars/domain/exceptions/Enum.java	/^        OTHER,$/;"	e	enum:Enum.Error	file:
+OTHER	java/javawars/domain/exceptions/Enum.java	/^        OTHER,$/;"	e	enum:Enum.Parameter	file:
+PAGE_NOT_FOUND	java/javawars/client/ui/Page.java	/^    public static final Composite PAGE_NOT_FOUND = new Composite() {$/;"	f	class:Page
+PASSWORD	java/javawars/domain/exceptions/Enum.java	/^        PASSWORD,$/;"	e	enum:Enum.Parameter	file:
+Page	java/javawars/client/ui/Page.java	/^    public Page(String url) {$/;"	m	class:Page
+Page	java/javawars/client/ui/Page.java	/^public abstract class Page extends Composite {$/;"	c
+PageNotFoundException	java/javawars/client/ui/exceptions/PageNotFoundException.java	/^public class PageNotFoundException extends RuntimeException {$/;"	c
+PageWithHorizontalMenu	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    public PageWithHorizontalMenu(String url) {$/;"	m	class:PageWithHorizontalMenu
+PageWithHorizontalMenu	java/javawars/client/ui/PageWithHorizontalMenu.java	/^public abstract class PageWithHorizontalMenu extends Page {$/;"	c
+PageWithNoMenu	java/javawars/client/ui/PageWithNoMenu.java	/^    public PageWithNoMenu( String url ){$/;"	m	class:PageWithNoMenu
+PageWithNoMenu	java/javawars/client/ui/PageWithNoMenu.java	/^public abstract class PageWithNoMenu extends Page{$/;"	c
+PageWithVerticalMenu	java/javawars/client/ui/PageWithVerticalMenu.java	/^    public PageWithVerticalMenu(String url) {$/;"	m	class:PageWithVerticalMenu
+PageWithVerticalMenu	java/javawars/client/ui/PageWithVerticalMenu.java	/^public abstract class PageWithVerticalMenu extends Page {$/;"	c
+Parameter	java/javawars/domain/exceptions/Enum.java	/^    public enum Parameter implements Serializable {$/;"	g	class:Enum
+ROBOT	java/javawars/domain/exceptions/Enum.java	/^        ROBOT,$/;"	e	enum:Enum.Entity	file:
+Register	java/javawars/server/servlets/Register.java	/^public class Register extends HttpServlet {$/;"	c
+Robot	java/javawars/client/ui/MatchViewerClassic.java	/^        private Robot(int id, String name, String author, int health, int score, int kills, String action, int waitTime) {$/;"	m	class:MatchViewerClassic.Robot	file:
+Robot	java/javawars/client/ui/MatchViewerClassic.java	/^    class Robot {$/;"	c	class:MatchViewerClassic
+Robot	java/javawars/client/ui/MatchViewerFast.java	/^        public Robot(int id, String name, String author) {$/;"	m	class:MatchViewerFast.Robot
+Robot	java/javawars/client/ui/MatchViewerFast.java	/^    class Robot {$/;"	c	class:MatchViewerFast
+Robot	java/javawars/client/ui/MatchViewerFastest.java	/^        public Robot(int id, String name, String author) {$/;"	m	class:MatchViewerFastest.Robot
+Robot	java/javawars/client/ui/MatchViewerFastest.java	/^    class Robot {$/;"	c	class:MatchViewerFastest
+Robot	java/javawars/domain/Robot.java	/^public class Robot implements Serializable, Comparator {$/;"	c
+RobotDAO	java/javawars/server/dao/RobotDAO.java	/^public class RobotDAO extends HibernateDaoSupport {$/;"	c
+RobotPage	java/javawars/client/pages/RobotPage.java	/^    RobotPage(final Robot robot, final Workshop workshop) {$/;"	m	class:RobotPage
+RobotPage	java/javawars/client/pages/RobotPage.java	/^class RobotPage extends PageWithHorizontalMenu {$/;"	c
+RobotsInfo	java/javawars/client/ui/MatchViewerClassic.java	/^            public RobotsInfo() {$/;"	m	class:MatchViewerClassic.Display.RobotsInfo
+RobotsInfo	java/javawars/client/ui/MatchViewerClassic.java	/^        class RobotsInfo extends Grid {$/;"	c	class:MatchViewerClassic.Display
+RootPage	java/javawars/client/pages/RootPage.java	/^    public RootPage() {$/;"	m	class:RootPage
+RootPage	java/javawars/client/pages/RootPage.java	/^public class RootPage extends PageWithHorizontalMenu{$/;"	c
+S	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+SE	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+STYLENAME_DEFAULT	java/javawars/client/ui/VerticalTabBar.java	/^  private static final String STYLENAME_DEFAULT = "gwt-TabBarItem";$/;"	f	class:VerticalTabBar	file:
+SW	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+ServiceProvider	java/javawars/client/services/ServiceProvider.java	/^public interface ServiceProvider extends RemoteService{$/;"	i
+ServiceProviderAsync	java/javawars/client/services/ServiceProviderAsync.java	/^public interface ServiceProviderAsync {$/;"	i
+ServiceProviderImpl	java/javawars/server/services/ServiceProviderImpl.java	/^public class ServiceProviderImpl extends HibernateRemoteService implements$/;"	c
+SessionConstants	java/javawars/client/data/SessionConstants.java	/^    private SessionConstants(){ $/;"	m	class:SessionConstants	file:
+SessionConstants	java/javawars/client/data/SessionConstants.java	/^    public SessionConstants(User currentuser) {$/;"	m	class:SessionConstants
+SessionConstants	java/javawars/client/data/SessionConstants.java	/^public class SessionConstants implements IsSerializable {$/;"	c
+Shoot	java/javawars/actions/Shoot.java	/^    public Shoot(int x, int y, int power) {$/;"	m	class:Shoot
+Shoot	java/javawars/actions/Shoot.java	/^public final class Shoot implements JWAction {$/;"	c
+SimpleLabel	java/javawars/client/pages/labels/SimpleLabel.java	/^    public SimpleLabel(String label) {$/;"	m	class:SimpleLabel
+SimpleLabel	java/javawars/client/pages/labels/SimpleLabel.java	/^public class SimpleLabel extends Composite{$/;"	c
+SourceEditor	java/javawars/client/ui/SourceEditor.java	/^public class SourceEditor extends VerticalPanel{$/;"	c
+SpacerFactory	java/javawars/client/ui/SpacerFactory.java	/^public class SpacerFactory {$/;"	c
+Statistics	java/javawars/client/pages/RobotPage.java	/^        public Statistics() {$/;"	m	class:RobotPage.Statistics
+Statistics	java/javawars/client/pages/RobotPage.java	/^    private class Statistics extends PageWithNoMenu {$/;"	c	class:RobotPage
+TOO_LONG	java/javawars/domain/exceptions/Enum.java	/^        TOO_LONG,$/;"	e	enum:Enum.Error	file:
+TOO_SHORT	java/javawars/domain/exceptions/Enum.java	/^        TOO_SHORT,$/;"	e	enum:Enum.Error	file:
+Test	java/javawars/client/pages/RobotPage.java	/^        public Test() {$/;"	m	class:RobotPage.Test
+Test	java/javawars/client/pages/RobotPage.java	/^    private class Test extends PageWithNoMenu {$/;"	c	class:RobotPage
+TooManyClassDefinitions	java/javawars/server/exceptions/TooManyClassDefinitions.java	/^public class TooManyClassDefinitions extends Exception {$/;"	c
+UNDEFINED	java/javawars/JWDirection.java	/^    UNDEFINED$/;"	e	enum:JWDirection	file:
+UP	java/javawars/JWDirection.java	/^    UP, DOWN,$/;"	e	enum:JWDirection	file:
+USER	java/javawars/domain/exceptions/Enum.java	/^        USER,$/;"	e	enum:Enum.Entity	file:
+User	java/javawars/domain/User.java	/^    public User() {$/;"	m	class:User
+User	java/javawars/domain/User.java	/^public class User implements Serializable{$/;"	c
+UserDAO	java/javawars/server/dao/UserDAO.java	/^public class UserDAO extends HibernateDaoSupport{$/;"	c
+VerticalTabBar	java/javawars/client/ui/VerticalTabBar.java	/^  public VerticalTabBar() {$/;"	m	class:VerticalTabBar
+VerticalTabBar	java/javawars/client/ui/VerticalTabBar.java	/^public class VerticalTabBar extends Composite implements SourcesTabEvents,$/;"	c
+W	java/javawars/JWDirection.java	/^    N, NE, E, SE, S, SW, W, NW,$/;"	e	enum:JWDirection	file:
+Wait	java/javawars/actions/Wait.java	/^    public Wait(int setInterval) {$/;"	m	class:Wait
+Wait	java/javawars/actions/Wait.java	/^public final class Wait implements JWAction {$/;"	c
+Workshop	java/javawars/client/pages/Workshop.java	/^    public Workshop() {$/;"	m	class:Workshop
+Workshop	java/javawars/client/pages/Workshop.java	/^public class Workshop extends PageWithVerticalMenu {$/;"	c
+aboutComposite	java/javawars/client/pages/LeaguePage.java	/^    private final Composite aboutComposite;$/;"	f	class:LeaguePage	file:
+action	java/javawars/JWMatch.java	/^    private JWAction action;$/;"	f	class:CommunicationThread	file:
+action	java/javawars/client/ui/MatchViewerClassic.java	/^        String action;$/;"	f	class:MatchViewerClassic.Robot
+actionDelay	java/javawars/JWRobotWrapper.java	/^    private int actionDelay = 0;$/;"	f	class:JWRobotWrapper	file:
+actionDuration	java/javawars/client/ui/MatchViewerFast.java	/^        public int actionDuration =0;$/;"	f	class:MatchViewerFast.Robot
+actionStart	java/javawars/client/ui/MatchViewerFast.java	/^        public int actionStart =0;$/;"	f	class:MatchViewerFast.Robot
+active	java/javawars/domain/User.java	/^    private boolean active = false;$/;"	f	class:User	file:
+addChild	java/javawars/client/ui/Page.java	/^    public final void addChild(Page child) {$/;"	m	class:Page
+addNewLeague	java/javawars/client/pages/Leagues.java	/^    public void addNewLeague(League league) {$/;"	m	class:Leagues
+addNewRobot	java/javawars/client/pages/Workshop.java	/^    public void addNewRobot(Robot robot) {$/;"	m	class:Workshop
+addTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void addTab(String text) {$/;"	m	class:VerticalTabBar
+addTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void addTab(String text, boolean asHTML) {$/;"	m	class:VerticalTabBar
+addTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void addTab(Widget widget) {$/;"	m	class:VerticalTabBar
+addTabListener	java/javawars/client/ui/VerticalTabBar.java	/^  public void addTabListener(TabListener listener) {$/;"	m	class:VerticalTabBar
+adjustFlexTable	java/javawars/client/ui/SpacerFactory.java	/^    public static void adjustFlexTable(FlexTable table, int ... widths){$/;"	m	class:SpacerFactory
+applicationPath	java/javawars/server/services/ServiceProviderImpl.java	/^    private String applicationPath;$/;"	f	class:ServiceProviderImpl	file:
+author	java/javawars/JWRobotWrapper.java	/^    private final String author, name;$/;"	f	class:JWRobotWrapper	file:
+author	java/javawars/client/ui/MatchViewerClassic.java	/^        String author;$/;"	f	class:MatchViewerClassic.Robot
+author	java/javawars/client/ui/MatchViewerFast.java	/^        public final String author;$/;"	f	class:MatchViewerFast.Robot
+author	java/javawars/client/ui/MatchViewerFastest.java	/^        public final String author;$/;"	f	class:MatchViewerFastest.Robot
+backgroundDrawed	java/javawars/client/ui/MatchViewerClassic.java	/^            boolean backgroundDrawed = false;$/;"	f	class:MatchViewerClassic.Display.RobotsInfo
+board	java/javawars/JWMatch.java	/^    private final JWBoard board;$/;"	f	class:JWMatch	file:
+boardHeight	java/javawars/JWRules.java	/^    private int boardHeight;$/;"	f	class:JWRules	file:
+boardWidth	java/javawars/JWRules.java	/^    private int boardWidth;$/;"	f	class:JWRules	file:
+boards	java/javawars/client/ui/MatchViewerClassic.java	/^        Board[] boards;$/;"	f	class:MatchViewerClassic.Display
+checkInsertBeforeTabIndex	java/javawars/client/ui/VerticalTabBar.java	/^  private void checkInsertBeforeTabIndex(int beforeIndex) {$/;"	m	class:VerticalTabBar	file:
+checkTabIndex	java/javawars/client/ui/VerticalTabBar.java	/^  private void checkTabIndex(int index) {$/;"	m	class:VerticalTabBar	file:
+children	java/javawars/client/ui/Page.java	/^    private final List<Page> children = new ArrayList<Page>();$/;"	f	class:Page	file:
+classpath	java/javawars/server/services/ServiceProviderImpl.java	/^    private String classpath;$/;"	f	class:ServiceProviderImpl	file:
+closeTag	java/javawars/JWXML.java	/^    public void closeTag() {$/;"	m	class:JWXML
+code	java/javawars/domain/Robot.java	/^    private String code;$/;"	f	class:Robot	file:
+compare	java/javawars/domain/MatchReport.java	/^    public int compare(Object objectOne, Object objectTwo) {$/;"	m	class:MatchReport
+compare	java/javawars/domain/Robot.java	/^    public int compare(Object objectOne, Object objectTwo) {$/;"	m	class:Robot
+compileRobot	java/javawars/server/services/ServiceProviderImpl.java	/^    private String compileRobot(String login, String source, String id) {$/;"	m	class:ServiceProviderImpl	file:
+compositeProxyVP	java/javawars/client/ui/CompositeProxy.java	/^    private FlowPanel compositeProxyVP = new FlowPanel();$/;"	f	class:CompositeProxy	file:
+content	java/javawars/JWXML.java	/^    private LinkedList<String> content = new LinkedList<String>();$/;"	f	class:JWXML	file:
+content	java/javawars/client/pages/Introduction.java	/^    private Composite content = new Composite() {$/;"	f	class:FirstRobot	file:
+contentProxy	java/javawars/client/ui/Page.java	/^    protected final CompositeProxy contentProxy = new CompositeProxy() {$/;"	f	class:Page
+contentWrapper	java/javawars/client/ui/Page.java	/^    protected final FlowPanel contentWrapper = new FlowPanel();$/;"	f	class:Page
+createElevationMap	java/javawars/JWBoard.java	/^    public int[][] createElevationMap() {$/;"	m	class:JWBoard
+createGemMap	java/javawars/JWBoard.java	/^    public int[][] createGemMap() {$/;"	m	class:JWBoard
+createRobot	java/javawars/client/services/ServiceProvider.java	/^    public Robot createRobot(String robotName) throws IncorrectParameterException;$/;"	m	interface:ServiceProvider
+createRobot	java/javawars/client/services/ServiceProviderAsync.java	/^    public void createRobot (String robotName, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+createRobot	java/javawars/server/services/ServiceProviderImpl.java	/^    public Robot createRobot(String robotName) throws IncorrectParameterException {$/;"	m	class:ServiceProviderImpl
+createRobotLabel	java/javawars/client/pages/Workshop.java	/^    private final CreateRobot createRobotLabel = new CreateRobot(this);$/;"	f	class:Workshop	file:
+createRobotMap	java/javawars/JWBoard.java	/^    public int[][] createRobotMap() {$/;"	m	class:JWBoard
+creationDate	java/javawars/domain/Robot.java	/^    private Date creationDate;$/;"	f	class:Robot	file:
+creationDate	java/javawars/domain/User.java	/^    private Date creationDate;$/;"	f	class:User	file:
+currentContent	java/javawars/client/ui/Page.java	/^    private Composite currentContent;$/;"	f	class:Page	file:
+currentNode	java/javawars/client/ui/MatchViewerFast.java	/^    private Node currentNode;$/;"	f	class:MatchViewerFast	file:
+currentNode	java/javawars/client/ui/MatchViewerFastest.java	/^    private Node currentNode;$/;"	f	class:MatchViewerFastest	file:
+currentSet	java/javawars/client/ui/MatchViewerClassic.java	/^            Robot [] currentSet;$/;"	f	class:MatchViewerClassic.Display.RobotsInfo
+currentTime	java/javawars/client/ui/MatchViewerFast.java	/^    private int currentTime;$/;"	f	class:MatchViewerFast	file:
+currentTime	java/javawars/client/ui/MatchViewerFastest.java	/^    private int currentTime;$/;"	f	class:MatchViewerFastest	file:
+currentTimeHTML	java/javawars/client/ui/MatchViewerFast.java	/^    private final HTML currentTimeHTML = new HTML();$/;"	f	class:MatchViewerFast	file:
+currentuser	java/javawars/client/data/SessionConstants.java	/^    private User currentuser;$/;"	f	class:SessionConstants	file:
+date	java/javawars/domain/MatchReport.java	/^    private Date date;$/;"	f	class:MatchReport	file:
+dead	java/javawars/JWRobotWrapper.java	/^    private boolean dead = false;$/;"	f	class:JWRobotWrapper	file:
+declaredAction	java/javawars/JWRobotWrapper.java	/^    private JWAction declaredAction = new Wait (10); \/\/ TODO: correct the 'wait' issue      $/;"	f	class:JWRobotWrapper	file:
+delegate	java/javawars/client/ui/VerticalTabBar.java	/^    ClickListener delegate;$/;"	f	class:VerticalTabBar.ClickDecoratorPanel
+deleteRobot	java/javawars/client/services/ServiceProvider.java	/^    public void deleteRobot(String robotName);$/;"	m	interface:ServiceProvider
+deleteRobot	java/javawars/client/services/ServiceProviderAsync.java	/^    public void deleteRobot(String robotName, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+deleteRobot	java/javawars/server/services/ServiceProviderImpl.java	/^    public void deleteRobot(String robotName) {$/;"	m	class:ServiceProviderImpl
+description	java/javawars/domain/League.java	/^    private String description;$/;"	f	class:League	file:
+detailsLB	java/javawars/client/ui/MatchViewerClassic.java	/^        private final Label detailsLB = new Label("Umieść kursor nad wybranym polem aby zobaczyć szczegóły");$/;"	f	class:MatchViewerClassic.Display	file:
+direction	java/javawars/actions/Move.java	/^    private final JWDirection direction;$/;"	f	class:Move	file:
+disabled	java/javawars/client/ui/Page.java	/^    private boolean disabled = false;$/;"	f	class:Page	file:
+display	java/javawars/client/ui/MatchViewerClassic.java	/^    Display display;$/;"	f	class:MatchViewerClassic
+displayGrid	java/javawars/client/ui/MatchViewerClassic.java	/^        private final Grid displayGrid = new Grid();$/;"	f	class:MatchViewerClassic.Display	file:
+displayVP	java/javawars/client/ui/MatchViewerClassic.java	/^        private final VerticalPanel displayVP = new VerticalPanel();$/;"	f	class:MatchViewerClassic.Display	file:
+doGet	java/javawars/server/servlets/Guest.java	/^    protected void doGet(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Guest
+doGet	java/javawars/server/servlets/Login.java	/^    protected void doGet(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Login
+doGet	java/javawars/server/servlets/Logout.java	/^    protected void doGet(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Logout
+doGet	java/javawars/server/servlets/Register.java	/^    protected void doGet(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Register
+doMatch	java/javawars/client/services/ServiceProvider.java	/^    public void doMatch();$/;"	m	interface:ServiceProvider
+doMatch	java/javawars/client/services/ServiceProviderAsync.java	/^    public void doMatch(AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+doMatch	java/javawars/server/services/ServiceProviderImpl.java	/^    public void doMatch() {$/;"	m	class:ServiceProviderImpl
+doPost	java/javawars/server/servlets/Guest.java	/^    protected void doPost(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Guest
+doPost	java/javawars/server/servlets/Login.java	/^    protected void doPost(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Login
+doPost	java/javawars/server/servlets/Logout.java	/^    protected void doPost(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Logout
+doPost	java/javawars/server/servlets/Register.java	/^    protected void doPost(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Register
+draw	java/javawars/client/ui/MatchViewerClassic.java	/^            public void draw() {$/;"	m	class:MatchViewerClassic.Display.RobotsInfo
+draw	java/javawars/client/ui/MatchViewerClassic.java	/^        public void draw() {$/;"	m	class:MatchViewerClassic.Display
+duplicate	java/javawars/JWBoard.java	/^    JWBoard duplicate() {$/;"	m	class:JWBoard
+editContent	java/javawars/client/pages/RobotPage.java	/^    private final Composite editContent;$/;"	f	class:RobotPage	file:
+elevation	java/javawars/client/ui/MatchViewerClassic.java	/^            int elevation = 0;$/;"	f	class:MatchViewerClassic.Board.Field
+elevation	java/javawars/client/ui/MatchViewerClassic.java	/^            private final int elevation, gem, robot, x, y;$/;"	f	class:MatchViewerClassic.Display.InteractiveCell	file:
+elevation	java/javawars/client/ui/MatchViewerFast.java	/^        public final int elevation;$/;"	f	class:MatchViewerFast.Field
+elevation	java/javawars/client/ui/MatchViewerFastest.java	/^        public final int elevation;$/;"	f	class:MatchViewerFastest.Field
+elevationMap	java/javawars/ErisMessage.java	/^    private final int[][] elevationMap;$/;"	f	class:ErisMessage	file:
+elevationToColor	java/javawars/client/ui/MatchViewerFast.java	/^    private String elevationToColor(int elevation){$/;"	m	class:MatchViewerFast	file:
+elevationToColor	java/javawars/client/ui/MatchViewerFastest.java	/^    private String elevationToColor(int elevation){$/;"	m	class:MatchViewerFastest	file:
+email	java/javawars/domain/User.java	/^    private String email;$/;"	f	class:User	file:
+emptyComposite	java/javawars/client/pages/Introduction.java	/^    private final Composite emptyComposite = new Composite() {$/;"	f	class:Introduction	file:
+emptyComposite	java/javawars/client/pages/Workshop.java	/^    private final Composite emptyComposite = new Composite() {$/;"	f	class:Workshop	file:
+entity	java/javawars/domain/exceptions/EntityNotFoundException.java	/^    private Enum.Entity entity;$/;"	f	class:EntityNotFoundException	file:
+equals	java/javawars/JWField.java	/^    public boolean equals(Object object) {$/;"	m	class:JWField
+equals	java/javawars/client/ui/Page.java	/^    public final boolean equals(Object object) {$/;"	m	class:Page
+equals	java/javawars/domain/IpAddress.java	/^    public boolean equals(Object arg0) {$/;"	m	class:IpAddress
+erisMessage	java/javawars/JWMatch.java	/^    private final ErisMessage erisMessage;$/;"	f	class:CommunicationThread	file:
+error	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    private Error error;$/;"	f	class:IncorrectParameterException	file:
+execute	java/javawars/JWAction.java	/^    public void execute( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml);$/;"	m	interface:JWAction
+execute	java/javawars/actions/Error.java	/^    public final void execute( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Error
+execute	java/javawars/actions/Move.java	/^    public final void execute(int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Move
+execute	java/javawars/actions/Shoot.java	/^    public final void execute(int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Shoot
+execute	java/javawars/actions/Wait.java	/^    public final void execute( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Wait
+execute	java/javawars/server/services/ServiceProviderImpl.java	/^    private String execute(String command, boolean returnErrors) {$/;"	m	class:ServiceProviderImpl	file:
+extractDate	java/javawars/client/ui/DateFormatter.java	/^    public static String extractDate(Date date){$/;"	m	class:DateFormatter
+extractDateAndHour	java/javawars/client/ui/DateFormatter.java	/^    public static String extractDateAndHour(Date date) {$/;"	m	class:DateFormatter
+extractHour	java/javawars/client/ui/DateFormatter.java	/^    public static String extractHour(Date date){$/;"	m	class:DateFormatter
+fetchLeagueMatchReports	java/javawars/client/services/ServiceProvider.java	/^    public List<MatchReport> fetchLeagueMatchReports(String leagueName);$/;"	m	interface:ServiceProvider
+fetchLeagueMatchReports	java/javawars/client/services/ServiceProviderAsync.java	/^    public void fetchLeagueMatchReports(String league, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+fetchLeagueMatchReports	java/javawars/server/services/ServiceProviderImpl.java	/^    public List<MatchReport> fetchLeagueMatchReports(String leagueName) {$/;"	m	class:ServiceProviderImpl
+fetchRobotMatchReports	java/javawars/client/services/ServiceProvider.java	/^    public List<MatchReport> fetchRobotMatchReports(String robotName);$/;"	m	interface:ServiceProvider
+fetchRobotMatchReports	java/javawars/client/services/ServiceProviderAsync.java	/^    public void fetchRobotMatchReports(String robot, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+fetchRobotMatchReports	java/javawars/server/services/ServiceProviderImpl.java	/^    public List<MatchReport> fetchRobotMatchReports(String robotName) {$/;"	m	class:ServiceProviderImpl
+fields	java/javawars/JWBoard.java	/^    private final JWField[][] fields;$/;"	f	class:JWBoard	file:
+fields	java/javawars/client/ui/MatchViewerClassic.java	/^        Field[][] fields;$/;"	f	class:MatchViewerClassic.Board
+fields	java/javawars/client/ui/MatchViewerFast.java	/^    private Field[][] fields;$/;"	f	class:MatchViewerFast	file:
+fields	java/javawars/client/ui/MatchViewerFastest.java	/^    private Field[][] fields;$/;"	f	class:MatchViewerFastest	file:
+fillerPage	java/javawars/client/pages/Leagues.java	/^    PageWithNoMenu fillerPage = new PageWithNoMenu("filler") {$/;"	f	class:Leagues
+findMainClassName	java/javawars/server/services/ServiceProviderImpl.java	/^    private static String findMainClassName(String source) {$/;"	m	class:ServiceProviderImpl	file:
+firstRobotVP	java/javawars/client/pages/Introduction.java	/^    VerticalPanel firstRobotVP = new VerticalPanel();$/;"	f	class:FirstRobot
+firstTime	java/javawars/client/data/DataProvider.java	/^    private static boolean firstTime=false;$/;"	f	class:DataProvider	file:
+flawed	java/javawars/JWRobotWrapper.java	/^    private boolean flawed = false;$/;"	f	class:JWRobotWrapper	file:
+flushField	java/javawars/client/ui/MatchViewerClassic.java	/^        public void flushField (int x, int y){$/;"	m	class:MatchViewerClassic.Board
+gameLength	java/javawars/JWRules.java	/^    private int gameLength;$/;"	f	class:JWRules	file:
+gameLength	java/javawars/domain/League.java	/^    private int gameLength;$/;"	f	class:League	file:
+games	java/javawars/domain/Robot.java	/^    private int games;$/;"	f	class:Robot	file:
+gem	java/javawars/JWField.java	/^    int gem;$/;"	f	class:JWField
+gem	java/javawars/client/ui/MatchViewerClassic.java	/^            int gem = 0;$/;"	f	class:MatchViewerClassic.Board.Field
+gem	java/javawars/client/ui/MatchViewerClassic.java	/^            private final int elevation, gem, robot, x, y;$/;"	f	class:MatchViewerClassic.Display.InteractiveCell	file:
+gem	java/javawars/client/ui/MatchViewerFast.java	/^        public final int gem;$/;"	f	class:MatchViewerFast.Field
+gem	java/javawars/client/ui/MatchViewerFastest.java	/^        public final int gem;$/;"	f	class:MatchViewerFastest.Field
+gemMap	java/javawars/ErisMessage.java	/^    private final int[][] gemMap;$/;"	f	class:ErisMessage	file:
+gemOdds	java/javawars/JWTerrainGenerator.java	/^    int gemOdds = 7;$/;"	f	class:JWTerrainGenerator
+gemPercentage	java/javawars/domain/League.java	/^    private int gemPercentage;$/;"	f	class:League	file:
+gems	java/javawars/client/ui/MatchViewerFast.java	/^        public int gems=0;$/;"	f	class:MatchViewerFast.Robot
+gems	java/javawars/client/ui/MatchViewerFastest.java	/^        public int gems=0;$/;"	f	class:MatchViewerFastest.Robot
+gems	java/javawars/domain/User.java	/^    private int gems;$/;"	f	class:User	file:
+generateCurrentTimeHTML	java/javawars/client/ui/MatchViewerFast.java	/^    private String generateCurrentTimeHTML(){$/;"	m	class:MatchViewerFast	file:
+generateRules	java/javawars/server/services/ServiceProviderImpl.java	/^    private JWRules generateRules(League league) {$/;"	m	class:ServiceProviderImpl	file:
+getAction	java/javawars/JWMatch.java	/^    private JWAction getAction(ErisMessage erisMessage, JWRobotWrapper from) {$/;"	m	class:JWMatch	file:
+getAction	java/javawars/JWMatch.java	/^    public JWAction getAction() {$/;"	m	class:CommunicationThread
+getActionDelay	java/javawars/JWRobotWrapper.java	/^    public int getActionDelay() {$/;"	m	class:JWRobotWrapper
+getAllLeagues	java/javawars/server/dao/LeagueDAO.java	/^    public List<League> getAllLeagues() {$/;"	m	class:LeagueDAO
+getAuthor	java/javawars/JWRobotWrapper.java	/^    public String getAuthor() {$/;"	m	class:JWRobotWrapper
+getAuthor	java/javawars/robots/Alpha.java	/^    public String getAuthor() {$/;"	m	class:Alpha
+getAuthor	java/javawars/robots/Beta.java	/^    public String getAuthor() {$/;"	m	class:Beta
+getAuthor	java/javawars/robots/Delta.java	/^    public String getAuthor() {$/;"	m	class:Delta
+getAuthor	java/javawars/robots/Gamma.java	/^    public String getAuthor() {$/;"	m	class:Gamma
+getAuthor	java/javawars/testrobots/Alpha.java	/^    public String getAuthor() {$/;"	m	class:Alpha
+getAuthor	java/javawars/testrobots/Delta.java	/^    public String getAuthor() {$/;"	m	class:Delta
+getAuthor	java/javawars/testrobots/Gamma.java	/^    public String getAuthor() {$/;"	m	class:Gamma
+getBoard	java/javawars/client/ui/MatchViewerClassic.java	/^        private Board getBoard(int position){$/;"	m	class:MatchViewerClassic.Display	file:
+getBoardHeight	java/javawars/JWRules.java	/^    public int getBoardHeight() {$/;"	m	class:JWRules
+getBoardWidth	java/javawars/JWRules.java	/^    public int getBoardWidth() {$/;"	m	class:JWRules
+getChildPage	java/javawars/client/ui/Page.java	/^    public final Page getChildPage(String url) {$/;"	m	class:Page
+getChildPage	java/javawars/client/ui/Page.java	/^    public final Page getChildPage(int index) {$/;"	m	class:Page
+getChildPageCount	java/javawars/client/ui/Page.java	/^    public final int getChildPageCount() {$/;"	m	class:Page
+getChildrenIterator	java/javawars/client/ui/Page.java	/^    public final Iterator<Page> getChildrenIterator() {$/;"	m	class:Page
+getCode	java/javawars/domain/Robot.java	/^    public String getCode() {$/;"	m	class:Robot
+getComposite	java/javawars/client/ui/CompositeProxy.java	/^    public abstract Composite getComposite();$/;"	m	class:CompositeProxy
+getContent	java/javawars/JWXML.java	/^    public String getContent() {$/;"	m	class:JWXML
+getContent	java/javawars/client/pages/Account.java	/^    public Composite getContent() {$/;"	m	class:Account
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:FetchingData
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:FirstRobot
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:Introduction
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:IntroductionImages
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:LeaguesExplanation
+getContent	java/javawars/client/pages/Introduction.java	/^    public Composite getContent() {$/;"	m	class:Moving
+getContent	java/javawars/client/pages/LeaguePage.java	/^        public Composite getContent() {$/;"	m	class:LeaguePage.LeagueDetails
+getContent	java/javawars/client/pages/LeaguePage.java	/^        public Composite getContent() {$/;"	m	class:LeaguePage.LeagueMatches
+getContent	java/javawars/client/pages/LeaguePage.java	/^        public Composite getContent() {$/;"	m	class:LeaguePage.LeagueTable
+getContent	java/javawars/client/pages/LeaguePage.java	/^    public Composite getContent() {$/;"	m	class:LeaguePage
+getContent	java/javawars/client/pages/Leagues.java	/^    public Composite getContent() {$/;"	m	class:Leagues
+getContent	java/javawars/client/pages/RobotPage.java	/^        public Composite getContent() {$/;"	m	class:RobotPage.Edit
+getContent	java/javawars/client/pages/RobotPage.java	/^        public Composite getContent() {$/;"	m	class:RobotPage.MatchReports
+getContent	java/javawars/client/pages/RobotPage.java	/^        public Composite getContent() {$/;"	m	class:RobotPage.Statistics
+getContent	java/javawars/client/pages/RobotPage.java	/^        public Composite getContent() {$/;"	m	class:RobotPage.Test
+getContent	java/javawars/client/pages/RobotPage.java	/^    public Composite getContent() {$/;"	m	class:RobotPage
+getContent	java/javawars/client/pages/RootPage.java	/^    public Composite getContent() {$/;"	m	class:RootPage
+getContent	java/javawars/client/pages/Workshop.java	/^        public Composite getContent() {$/;"	m	class:Workshop.CreateRobotPage
+getContent	java/javawars/client/pages/Workshop.java	/^    public Composite getContent() {$/;"	m	class:Workshop
+getContent	java/javawars/client/ui/Page.java	/^    public abstract Composite getContent();$/;"	m	class:Page
+getCost	java/javawars/JWAction.java	/^    public int getCost( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml);$/;"	m	interface:JWAction
+getCost	java/javawars/actions/Error.java	/^    public final int getCost( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Error
+getCost	java/javawars/actions/Move.java	/^    public final int getCost(int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Move
+getCost	java/javawars/actions/Shoot.java	/^    public final int getCost(int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Shoot
+getCost	java/javawars/actions/Wait.java	/^    public final int getCost( int callerID, List<JWRobotWrapper> robots, JWBoard board, JWXML jwxml) {$/;"	m	class:Wait
+getCreationDate	java/javawars/domain/Robot.java	/^    public Date getCreationDate() {$/;"	m	class:Robot
+getCreationDate	java/javawars/domain/User.java	/^    public Date getCreationDate() {$/;"	m	class:User
+getCurrentUser	java/javawars/server/services/ServiceProviderImpl.java	/^    private User getCurrentUser() {$/;"	m	class:ServiceProviderImpl	file:
+getCurrentuser	java/javawars/client/data/SessionConstants.java	/^    public User getCurrentuser() {$/;"	m	class:SessionConstants
+getDate	java/javawars/domain/MatchReport.java	/^    public Date getDate() {$/;"	m	class:MatchReport
+getDeclaredAction	java/javawars/JWRobotWrapper.java	/^    public JWAction getDeclaredAction() {$/;"	m	class:JWRobotWrapper
+getDescription	java/javawars/domain/League.java	/^    public String getDescription() {$/;"	m	class:League
+getDirection	java/javawars/actions/Move.java	/^    public JWDirection getDirection() {$/;"	m	class:Move
+getDisplayedUrl	java/javawars/client/ui/Page.java	/^    public String getDisplayedUrl(){$/;"	m	class:Page
+getElevation	java/javawars/JWTerrainGenerator.java	/^    public int getElevation (){$/;"	m	class:JWTerrainGenerator
+getElevation	java/javawars/client/ui/MatchViewerClassic.java	/^            public int getElevation() {$/;"	m	class:MatchViewerClassic.Board.Field
+getElevationAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getElevationAt(int x, int y) {$/;"	m	class:MatchViewerClassic.Board
+getElevationMap	java/javawars/ErisMessage.java	/^    public int[][] getElevationMap() {$/;"	m	class:ErisMessage
+getElevationMap	java/javawars/JWRules.java	/^    public int [][] getElevationMap(){$/;"	m	class:JWRules
+getElevationMap	java/javawars/JWTerrainGenerator.java	/^    public int[][] getElevationMap(int width, int height){$/;"	m	class:JWTerrainGenerator
+getEmail	java/javawars/domain/User.java	/^    public String getEmail() {$/;"	m	class:User
+getEntity	java/javawars/domain/exceptions/EntityNotFoundException.java	/^    public Entity getEntity() {$/;"	m	class:EntityNotFoundException
+getError	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    public Error getError() {$/;"	m	class:IncorrectParameterException
+getField	java/javawars/client/ui/MatchViewerClassic.java	/^        public Field getField (int x, int y){$/;"	m	class:MatchViewerClassic.Board
+getFields	java/javawars/JWBoard.java	/^    public JWField[][] getFields() {$/;"	m	class:JWBoard
+getFields	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node[] getFields(Node parent) {$/;"	m	class:MatchViewerClassic	file:
+getGameLength	java/javawars/JWRules.java	/^    public int getGameLength() {$/;"	m	class:JWRules
+getGameLength	java/javawars/domain/League.java	/^    public int getGameLength() {$/;"	m	class:League
+getGames	java/javawars/domain/Robot.java	/^    public int getGames() {$/;"	m	class:Robot
+getGem	java/javawars/JWField.java	/^    public int getGem() {$/;"	m	class:JWField
+getGem	java/javawars/JWTerrainGenerator.java	/^    public int getGem () {$/;"	m	class:JWTerrainGenerator
+getGem	java/javawars/client/ui/MatchViewerClassic.java	/^            public int getGem() {$/;"	m	class:MatchViewerClassic.Board.Field
+getGemAt	java/javawars/JWBoard.java	/^    public int getGemAt(int x, int y) {$/;"	m	class:JWBoard
+getGemAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getGemAt(int x, int y) {$/;"	m	class:MatchViewerClassic.Board
+getGemMap	java/javawars/ErisMessage.java	/^    public int[][] getGemMap() {$/;"	m	class:ErisMessage
+getGemMap	java/javawars/JWRules.java	/^    public int[][] getGemMap(){$/;"	m	class:JWRules
+getGemMap	java/javawars/JWTerrainGenerator.java	/^    public int[][] getGemMap(int width, int height){$/;"	m	class:JWTerrainGenerator
+getGemPercentage	java/javawars/domain/League.java	/^    public int getGemPercentage() {$/;"	m	class:League
+getGems	java/javawars/domain/User.java	/^    public int getGems() {$/;"	m	class:User
+getGrasslandPercentage	java/javawars/domain/League.java	/^    public int getGrasslandPercentage() {$/;"	m	class:League
+getHTMLSpacer	java/javawars/client/ui/SpacerFactory.java	/^    public static Widget getHTMLSpacer(int width, int height){$/;"	m	class:SpacerFactory
+getHealth	java/javawars/JWRobotWrapper.java	/^    public int getHealth() {$/;"	m	class:JWRobotWrapper
+getHeight	java/javawars/JWBoard.java	/^    public int getHeight() {$/;"	m	class:JWBoard
+getHeight	java/javawars/JWField.java	/^    public int getHeight() {$/;"	m	class:JWField
+getHeight	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getHeight() {$/;"	m	class:MatchViewerClassic.Board
+getHeight	java/javawars/domain/League.java	/^    public int getHeight() {$/;"	m	class:League
+getHeightAt	java/javawars/JWBoard.java	/^    public int getHeightAt(int x, int y) {$/;"	m	class:JWBoard
+getHillsPercentage	java/javawars/domain/League.java	/^    public int getHillsPercentage() {$/;"	m	class:League
+getHistoryToken	java/javawars/client/ui/Page.java	/^    protected final String getHistoryToken() {$/;"	m	class:Page
+getId	java/javawars/JWRobotWrapper.java	/^    public int getId() {$/;"	m	class:JWRobotWrapper
+getId	java/javawars/domain/IpAddress.java	/^    public Long getId() {$/;"	m	class:IpAddress
+getId	java/javawars/domain/League.java	/^    public Long getId() {$/;"	m	class:League
+getId	java/javawars/domain/MatchReport.java	/^    public Long getId() {$/;"	m	class:MatchReport
+getId	java/javawars/domain/Robot.java	/^    public Long getId() {$/;"	m	class:Robot
+getId	java/javawars/domain/User.java	/^    public Long getId() {$/;"	m	class:User
+getInstance	java/javawars/client/data/DataProvider.java	/^    public static DataProvider getInstance() {$/;"	m	class:DataProvider
+getInterval	java/javawars/actions/Error.java	/^    public int getInterval() {$/;"	m	class:Error
+getInterval	java/javawars/actions/Wait.java	/^    public int getInterval() {$/;"	m	class:Wait
+getIpAddress	java/javawars/domain/IpAddress.java	/^    public String getIpAddress() {$/;"	m	class:IpAddress
+getIpAddress	java/javawars/server/dao/IpAddressDAO.java	/^    public IpAddress getIpAddress(Long id) {$/;"	m	class:IpAddressDAO
+getIpAddress	java/javawars/server/dao/IpAddressDAO.java	/^    public IpAddress getIpAddress(String ipAddress) throws EntityNotFoundException{$/;"	m	class:IpAddressDAO
+getIpAddresses	java/javawars/domain/User.java	/^    public List<IpAddress> getIpAddresses() {$/;"	m	class:User
+getJwrobot	java/javawars/JWRobotWrapper.java	/^    public JWRobot getJwrobot() {$/;"	m	class:JWRobotWrapper
+getJwxml	java/javawars/JWMatch.java	/^    public JWXML getJwxml() {$/;"	m	class:JWMatch
+getKills	java/javawars/domain/Robot.java	/^    public int getKills() {$/;"	m	class:Robot
+getKills	java/javawars/domain/User.java	/^    public int getKills() {$/;"	m	class:User
+getLabel	java/javawars/client/pages/Account.java	/^    public Composite getLabel() {$/;"	m	class:Account
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:FetchingData
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:FirstRobot
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:Introduction
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:IntroductionImages
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:LeaguesExplanation
+getLabel	java/javawars/client/pages/Introduction.java	/^    public Composite getLabel() {$/;"	m	class:Moving
+getLabel	java/javawars/client/pages/LeaguePage.java	/^        public Composite getLabel() {$/;"	m	class:LeaguePage.LeagueDetails
+getLabel	java/javawars/client/pages/LeaguePage.java	/^        public Composite getLabel() {$/;"	m	class:LeaguePage.LeagueMatches
+getLabel	java/javawars/client/pages/LeaguePage.java	/^        public Composite getLabel() {$/;"	m	class:LeaguePage.LeagueTable
+getLabel	java/javawars/client/pages/LeaguePage.java	/^    public Composite getLabel() {$/;"	m	class:LeaguePage
+getLabel	java/javawars/client/pages/Leagues.java	/^    public Composite getLabel() {$/;"	m	class:Leagues
+getLabel	java/javawars/client/pages/RobotPage.java	/^        public Composite getLabel() {$/;"	m	class:RobotPage.Edit
+getLabel	java/javawars/client/pages/RobotPage.java	/^        public Composite getLabel() {$/;"	m	class:RobotPage.MatchReports
+getLabel	java/javawars/client/pages/RobotPage.java	/^        public Composite getLabel() {$/;"	m	class:RobotPage.Statistics
+getLabel	java/javawars/client/pages/RobotPage.java	/^        public Composite getLabel() {$/;"	m	class:RobotPage.Test
+getLabel	java/javawars/client/pages/RobotPage.java	/^    public Composite getLabel() {$/;"	m	class:RobotPage
+getLabel	java/javawars/client/pages/RootPage.java	/^    public Composite getLabel() {$/;"	m	class:RootPage
+getLabel	java/javawars/client/pages/Workshop.java	/^        public Composite getLabel() {$/;"	m	class:Workshop.CreateRobotPage
+getLabel	java/javawars/client/pages/Workshop.java	/^    public Composite getLabel() {$/;"	m	class:Workshop
+getLabel	java/javawars/client/ui/Page.java	/^    public abstract Composite getLabel();$/;"	m	class:Page
+getLabelProxy	java/javawars/client/ui/Page.java	/^    protected final Composite getLabelProxy() {$/;"	m	class:Page
+getLastLoginDate	java/javawars/domain/User.java	/^    public Date getLastLoginDate() {$/;"	m	class:User
+getLeague	java/javawars/server/dao/LeagueDAO.java	/^    public League getLeague(Long id) {$/;"	m	class:LeagueDAO
+getLeague	java/javawars/server/dao/LeagueDAO.java	/^    public League getLeague(String name) throws EntityNotFoundException{$/;"	m	class:LeagueDAO
+getLeagueList	java/javawars/server/LeagueData.java	/^    public static List<League> getLeagueList(){$/;"	m	class:LeagueData
+getLeagues	java/javawars/client/services/ServiceProvider.java	/^    public List<League> getLeagues();$/;"	m	interface:ServiceProvider
+getLeagues	java/javawars/client/services/ServiceProviderAsync.java	/^    public void getLeagues(AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+getLeagues	java/javawars/domain/MatchReport.java	/^    public Set<League> getLeagues() {$/;"	m	class:MatchReport
+getLeagues	java/javawars/domain/User.java	/^    public Set<League> getLeagues() {$/;"	m	class:User
+getLeagues	java/javawars/server/services/ServiceProviderImpl.java	/^    public List<League> getLeagues() {$/;"	m	class:ServiceProviderImpl
+getLogin	java/javawars/domain/User.java	/^    public String getLogin() {$/;"	m	class:User
+getMatchReport	java/javawars/server/dao/MatchReportDAO.java	/^    public MatchReport getMatchReport(Long id) {$/;"	m	class:MatchReportDAO
+getMatchReports	java/javawars/domain/League.java	/^    public Set<MatchReport> getMatchReports() {$/;"	m	class:League
+getMatches	java/javawars/domain/Robot.java	/^    public Set<MatchReport> getMatches() {$/;"	m	class:Robot
+getMaxParticipants	java/javawars/domain/League.java	/^    public int getMaxParticipants() {$/;"	m	class:League
+getMaxWaitTimeMs	java/javawars/JWRules.java	/^    public int getMaxWaitTimeMs() {$/;"	m	class:JWRules
+getMinPopulation	java/javawars/JWRules.java	/^    public int getMinPopulation() {$/;"	m	class:JWRules
+getMinScore	java/javawars/domain/League.java	/^    public int getMinScore() {$/;"	m	class:League
+getModificationDate	java/javawars/domain/Robot.java	/^    public Date getModificationDate() {$/;"	m	class:Robot
+getMountainsPercentage	java/javawars/domain/League.java	/^    public int getMountainsPercentage() {$/;"	m	class:League
+getMyId	java/javawars/ErisMessage.java	/^    public int getMyId() {$/;"	m	class:ErisMessage
+getMyPosition	java/javawars/ErisMessage.java	/^    public Point getMyPosition(){$/;"	m	class:ErisMessage
+getName	java/javawars/JWRobotWrapper.java	/^    public String getName() {$/;"	m	class:JWRobotWrapper
+getName	java/javawars/domain/League.java	/^    public String getName() {$/;"	m	class:League
+getName	java/javawars/domain/Robot.java	/^    public String getName() {$/;"	m	class:Robot
+getName	java/javawars/domain/User.java	/^    public String getName() {$/;"	m	class:User
+getName	java/javawars/robots/Alpha.java	/^    public String getName() {$/;"	m	class:Alpha
+getName	java/javawars/robots/Beta.java	/^    public String getName() {$/;"	m	class:Beta
+getName	java/javawars/robots/Delta.java	/^    public String getName() {$/;"	m	class:Delta
+getName	java/javawars/robots/Gamma.java	/^    public String getName() {$/;"	m	class:Gamma
+getName	java/javawars/testrobots/Alpha.java	/^    public String getName() {$/;"	m	class:Alpha
+getName	java/javawars/testrobots/Delta.java	/^    public String getName() {$/;"	m	class:Delta
+getNode	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node getNode(Node parent, String name) {$/;"	m	class:MatchViewerClassic	file:
+getNode	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node getNode(Node parent, String name, int position) {$/;"	m	class:MatchViewerClassic	file:
+getNode	java/javawars/client/ui/MatchViewerFast.java	/^    private Node getNode(Node parent, String name) {$/;"	m	class:MatchViewerFast	file:
+getNode	java/javawars/client/ui/MatchViewerFastest.java	/^    private Node getNode(Node parent, String name) {$/;"	m	class:MatchViewerFastest	file:
+getObjectCreationDate	java/javawars/client/data/SessionConstants.java	/^    public Date getObjectCreationDate() {$/;"	m	class:SessionConstants
+getOrCreateIpAddress	java/javawars/server/dao/IpAddressDAO.java	/^    public IpAddress getOrCreateIpAddress(String ipAddress){$/;"	m	class:IpAddressDAO
+getParameter	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    public Parameter getParameter() {$/;"	m	class:IncorrectParameterException
+getParentPage	java/javawars/client/ui/Page.java	/^    public final Page getParentPage() {$/;"	m	class:Page
+getPassword	java/javawars/domain/League.java	/^    public String getPassword() {$/;"	m	class:League
+getPassword	java/javawars/domain/User.java	/^    public String getPassword() {$/;"	m	class:User
+getPosition	java/javawars/JWRobotWrapper.java	/^    public Point getPosition() {$/;"	m	class:JWRobotWrapper
+getPosition	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getPosition() {$/;"	m	class:MatchViewerClassic.Display
+getPower	java/javawars/actions/Shoot.java	/^    public int getPower() {$/;"	m	class:Shoot
+getResults	java/javawars/JWMatch.java	/^    public List<JWRobotWrapper> getResults() {$/;"	m	class:JWMatch
+getRobot	java/javawars/JWField.java	/^    public int getRobot() {$/;"	m	class:JWField
+getRobot	java/javawars/client/pages/RobotPage.java	/^    public Robot getRobot() {$/;"	m	class:RobotPage
+getRobot	java/javawars/client/ui/MatchViewerClassic.java	/^            public int getRobot() {$/;"	m	class:MatchViewerClassic.Board.Field
+getRobot	java/javawars/server/dao/RobotDAO.java	/^    public Robot getRobot(Long id) {$/;"	m	class:RobotDAO
+getRobot	java/javawars/server/dao/RobotDAO.java	/^    public Robot getRobot(String userLogin, String robotName) throws EntityNotFoundException{$/;"	m	class:RobotDAO
+getRobotAt	java/javawars/JWBoard.java	/^    public int getRobotAt(int x, int y) {$/;"	m	class:JWBoard
+getRobotAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getRobotAt(int x, int y) {$/;"	m	class:MatchViewerClassic.Board
+getRobotList	java/javawars/client/pages/Workshop.java	/^    public List<Robot> getRobotList() {$/;"	m	class:Workshop
+getRobotMap	java/javawars/ErisMessage.java	/^    public int[][] getRobotMap() {$/;"	m	class:ErisMessage
+getRobots	java/javawars/client/services/ServiceProvider.java	/^    public List<Robot> getRobots();$/;"	m	interface:ServiceProvider
+getRobots	java/javawars/client/services/ServiceProviderAsync.java	/^    public void getRobots(AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+getRobots	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node[] getRobots(Node parent) {$/;"	m	class:MatchViewerClassic	file:
+getRobots	java/javawars/domain/MatchReport.java	/^    public Set<Robot> getRobots() {$/;"	m	class:MatchReport
+getRobots	java/javawars/domain/User.java	/^    public Set<Robot> getRobots() {$/;"	m	class:User
+getRobots	java/javawars/server/services/ServiceProviderImpl.java	/^    public List<Robot> getRobots() {$/;"	m	class:ServiceProviderImpl
+getScore	java/javawars/JWRobotWrapper.java	/^    public int getScore() {$/;"	m	class:JWRobotWrapper
+getScore	java/javawars/domain/Robot.java	/^    public int getScore() {$/;"	m	class:Robot
+getScore	java/javawars/domain/User.java	/^    public int getScore() {$/;"	m	class:User
+getScoreMultiplier	java/javawars/domain/League.java	/^    public int getScoreMultiplier() {$/;"	m	class:League
+getSelectedChild	java/javawars/client/ui/Page.java	/^    protected final int getSelectedChild(){$/;"	m	class:Page
+getSelectedRobot	java/javawars/domain/User.java	/^    public String getSelectedRobot() {$/;"	m	class:User
+getSelectedTab	java/javawars/client/ui/VerticalTabBar.java	/^  public int getSelectedTab() {$/;"	m	class:VerticalTabBar
+getSelectedTabWidget	java/javawars/client/ui/VerticalTabBar.java	/^  public Widget getSelectedTabWidget() {$/;"	m	class:VerticalTabBar
+getService	java/javawars/client/data/DataProvider.java	/^    public ServiceProviderAsync getService(){$/;"	m	class:DataProvider
+getServletInfo	java/javawars/server/servlets/Guest.java	/^    public String getServletInfo() {$/;"	m	class:Guest
+getServletInfo	java/javawars/server/servlets/Login.java	/^    public String getServletInfo() {$/;"	m	class:Login
+getServletInfo	java/javawars/server/servlets/Logout.java	/^    public String getServletInfo() {$/;"	m	class:Logout
+getServletInfo	java/javawars/server/servlets/Register.java	/^    public String getServletInfo() {$/;"	m	class:Register
+getSessionConstants	java/javawars/client/data/DataProvider.java	/^    public void getSessionConstants(AsyncCallback<SessionConstants> callback) {$/;"	m	class:DataProvider
+getSessionConstants	java/javawars/client/services/ServiceProvider.java	/^    public SessionConstants getSessionConstants();$/;"	m	interface:ServiceProvider
+getSessionConstants	java/javawars/client/services/ServiceProviderAsync.java	/^    public void getSessionConstants(AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+getSessionConstants	java/javawars/server/services/ServiceProviderImpl.java	/^    public SessionConstants getSessionConstants() {$/;"	m	class:ServiceProviderImpl
+getShootingAllowed	java/javawars/domain/League.java	/^    public boolean getShootingAllowed() {$/;"	m	class:League
+getSpace	java/javawars/JWXML.java	/^    private String getSpace() {$/;"	m	class:JWXML	file:
+getStartGems	java/javawars/domain/User.java	/^    public int getStartGems() {$/;"	m	class:User
+getStartKills	java/javawars/domain/User.java	/^    public int getStartKills() {$/;"	m	class:User
+getStartScore	java/javawars/domain/User.java	/^    public int getStartScore() {$/;"	m	class:User
+getStartWins	java/javawars/domain/User.java	/^    public int getStartWins() {$/;"	m	class:User
+getStudentID	java/javawars/domain/User.java	/^    public String getStudentID() {$/;"	m	class:User
+getSurname	java/javawars/domain/User.java	/^    public String getSurname() {$/;"	m	class:User
+getTabCount	java/javawars/client/ui/VerticalTabBar.java	/^  public int getTabCount() {$/;"	m	class:VerticalTabBar
+getTabHTML	java/javawars/client/ui/VerticalTabBar.java	/^  public String getTabHTML(int index) {$/;"	m	class:VerticalTabBar
+getText	java/javawars/client/ui/SourceEditor.java	/^    public String getText(){$/;"	m	class:SourceEditor
+getTextAreaText	java/javawars/client/ui/SourceEditor.java	/^    public native String getTextAreaText() \/*-{$/;"	m	class:SourceEditor
+getTime	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getTime() {$/;"	m	class:MatchViewerClassic.Board
+getTime	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getTime() {$/;"	m	class:MatchViewerClassic.Display
+getTimestamps	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node[] getTimestamps(Node parent) {$/;"	m	class:MatchViewerClassic	file:
+getUrl	java/javawars/client/ui/Page.java	/^    public final String getUrl() {$/;"	m	class:Page
+getUser	java/javawars/client/services/ServiceProvider.java	/^    public User getUser(String login);$/;"	m	interface:ServiceProvider
+getUser	java/javawars/client/services/ServiceProviderAsync.java	/^    public void getUser (String login, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+getUser	java/javawars/server/dao/UserDAO.java	/^    public User getUser(Long id) {$/;"	m	class:UserDAO
+getUser	java/javawars/server/dao/UserDAO.java	/^    public User getUser(String login) throws EntityNotFoundException{$/;"	m	class:UserDAO
+getUser	java/javawars/server/services/ServiceProviderImpl.java	/^    public User getUser(String login) {$/;"	m	class:ServiceProviderImpl
+getUsers	java/javawars/domain/IpAddress.java	/^    public List<User> getUsers() {$/;"	m	class:IpAddress
+getUsers	java/javawars/domain/League.java	/^    public Set<User> getUsers() {$/;"	m	class:League
+getUsers	java/javawars/domain/Robot.java	/^    public Set<User> getUsers() {$/;"	m	class:Robot
+getWidth	java/javawars/JWBoard.java	/^    public int getWidth() {$/;"	m	class:JWBoard
+getWidth	java/javawars/client/ui/MatchViewerClassic.java	/^        public int getWidth() {$/;"	m	class:MatchViewerClassic.Board
+getWidth	java/javawars/domain/League.java	/^    public int getWidth() {$/;"	m	class:League
+getWins	java/javawars/domain/Robot.java	/^    public int getWins() {$/;"	m	class:Robot
+getWins	java/javawars/domain/User.java	/^    public int getWins() {$/;"	m	class:User
+getX	java/javawars/actions/Shoot.java	/^    public int getX() {$/;"	m	class:Shoot
+getXmlDescription	java/javawars/domain/MatchReport.java	/^    public String getXmlDescription() {$/;"	m	class:MatchReport
+getY	java/javawars/actions/Shoot.java	/^    public int getY() {$/;"	m	class:Shoot
+grasslandOdds	java/javawars/JWTerrainGenerator.java	/^    int grasslandOdds = 70;$/;"	f	class:JWTerrainGenerator
+grasslandPercentage	java/javawars/domain/League.java	/^    private int grasslandPercentage;$/;"	f	class:League	file:
+guest	java/javawars/domain/User.java	/^    private boolean guest;$/;"	f	class:User	file:
+hashCode	java/javawars/JWField.java	/^    public int hashCode() {$/;"	m	class:JWField
+hashCode	java/javawars/client/ui/Page.java	/^    public final int hashCode() {$/;"	m	class:Page
+hashCode	java/javawars/domain/IpAddress.java	/^    public int hashCode() {$/;"	m	class:IpAddress
+health	java/javawars/JWRobotWrapper.java	/^    private int health = 100;$/;"	f	class:JWRobotWrapper	file:
+health	java/javawars/client/ui/MatchViewerClassic.java	/^        int health;$/;"	f	class:MatchViewerClassic.Robot
+health	java/javawars/client/ui/MatchViewerFast.java	/^        public int health=100;$/;"	f	class:MatchViewerFast.Robot
+health	java/javawars/client/ui/MatchViewerFastest.java	/^        public int health=100;$/;"	f	class:MatchViewerFastest.Robot
+heatValues	java/javawars/client/ui/MatchViewerFast.java	/^    private static final int [] heatValues = {$/;"	f	class:MatchViewerFast	file:
+heatValues	java/javawars/client/ui/MatchViewerFastest.java	/^    private static final int [] heatValues = {$/;"	f	class:MatchViewerFastest	file:
+heatmap	java/javawars/client/ui/MatchViewerFast.java	/^    private static final String [] heatmap = {$/;"	f	class:MatchViewerFast	file:
+heatmap	java/javawars/client/ui/MatchViewerFastest.java	/^    private static final String [] heatmap = {$/;"	f	class:MatchViewerFastest	file:
+height	java/javawars/JWBoard.java	/^    private final int width,  height;$/;"	f	class:JWBoard	file:
+height	java/javawars/JWField.java	/^    int height;$/;"	f	class:JWField
+height	java/javawars/client/ui/MatchViewerClassic.java	/^        private final int height;$/;"	f	class:MatchViewerClassic.Board	file:
+height	java/javawars/domain/League.java	/^    private int height;$/;"	f	class:League	file:
+hidden	java/javawars/client/ui/Page.java	/^    private static final TextArea hidden = new TextArea();$/;"	f	class:Page	file:
+hiddenFieldInitializes	java/javawars/client/ui/Page.java	/^    private static boolean hiddenFieldInitializes = false;$/;"	f	class:Page	file:
+hillsOdds	java/javawars/JWTerrainGenerator.java	/^    int hillsOdds = 20;$/;"	f	class:JWTerrainGenerator
+hillsPercentage	java/javawars/domain/League.java	/^    private int hillsPercentage;$/;"	f	class:League	file:
+historyUpdater	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    TabListener historyUpdater = new TabListener() {$/;"	f	class:PageWithHorizontalMenu
+historyUpdater	java/javawars/client/ui/PageWithVerticalMenu.java	/^    TabListener historyUpdater = new TabListener() {$/;"	f	class:PageWithVerticalMenu
+id	java/javawars/JWRobotWrapper.java	/^    private final int id;$/;"	f	class:JWRobotWrapper	file:
+id	java/javawars/client/ui/MatchViewerClassic.java	/^        int id;$/;"	f	class:MatchViewerClassic.Robot
+id	java/javawars/client/ui/MatchViewerFast.java	/^        public final int id;$/;"	f	class:MatchViewerFast.Robot
+id	java/javawars/client/ui/MatchViewerFastest.java	/^        public final int id;$/;"	f	class:MatchViewerFastest.Robot
+id	java/javawars/domain/IpAddress.java	/^    private Long id;$/;"	f	class:IpAddress	file:
+id	java/javawars/domain/League.java	/^    private Long id;$/;"	f	class:League	file:
+id	java/javawars/domain/MatchReport.java	/^    private Long id;$/;"	f	class:MatchReport	file:
+id	java/javawars/domain/Robot.java	/^    private Long id;$/;"	f	class:Robot	file:
+id	java/javawars/domain/User.java	/^    private Long id;$/;"	f	class:User	file:
+increment	java/javawars/client/ui/MatchViewerClassic.java	/^        public void increment(){$/;"	m	class:MatchViewerClassic.Display
+infoComposite	java/javawars/client/pages/Leagues.java	/^    private final Composite infoComposite = new Composite() {$/;"	f	class:Leagues	file:
+infoComposite	java/javawars/client/pages/Workshop.java	/^    private final Composite infoComposite = new Composite() {$/;"	f	class:Workshop	file:
+initialCode	java/javawars/server/services/ServiceProviderImpl.java	/^    private final String initialCode =$/;"	f	class:ServiceProviderImpl	file:
+initialize	java/javawars/JWSecurityManager.java	/^    public void initialize(final Thread safeThread, final String deploymentPath, final String binPath) {$/;"	m	class:JWSecurityManager
+initialize	java/javawars/server/LeagueData.java	/^    private static void initialize() {$/;"	m	class:LeagueData	file:
+initializeCodePress	java/javawars/client/ui/SourceEditor.java	/^    public native void initializeCodePress() \/*-{$/;"	m	class:SourceEditor
+initializeSessionConstants	java/javawars/client/data/DataProvider.java	/^    AsyncCallback<SessionConstants> initializeSessionConstants = new AsyncCallback<SessionConstants>() {$/;"	f	class:DataProvider
+initialized	java/javawars/client/ui/CompositeProxy.java	/^    private boolean initialized = false;$/;"	f	class:CompositeProxy	file:
+initialized	java/javawars/client/ui/MatchViewerClassic.java	/^        private boolean initialized = false;$/;"	f	class:MatchViewerClassic.Display	file:
+initialized	java/javawars/client/ui/Page.java	/^    private boolean initialized = false;$/;"	f	class:Page	file:
+insertTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void insertTab(String text, boolean asHTML, int beforeIndex) {$/;"	m	class:VerticalTabBar
+insertTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void insertTab(String text, int beforeIndex) {$/;"	m	class:VerticalTabBar
+insertTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void insertTab(Widget widget, int beforeIndex) {$/;"	m	class:VerticalTabBar
+instance	java/javawars/client/data/DataProvider.java	/^    private static DataProvider instance;$/;"	f	class:DataProvider	file:
+interval	java/javawars/actions/Error.java	/^    private int interval;$/;"	f	class:Error	file:
+interval	java/javawars/actions/Wait.java	/^    private int interval;$/;"	f	class:Wait	file:
+introductionImages	java/javawars/client/pages/Introduction.java	/^    private final Composite introductionImages = new Composite() {$/;"	f	class:IntroductionImages	file:
+ipAddress	java/javawars/domain/IpAddress.java	/^    private String ipAddress;$/;"	f	class:IpAddress	file:
+ipAddressDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    IpAddressDAO ipAddressDAO;$/;"	f	class:ServiceProviderImpl
+ipAddressExists	java/javawars/server/dao/IpAddressDAO.java	/^    public boolean ipAddressExists(String ipAddress){$/;"	m	class:IpAddressDAO
+ipAddresses	java/javawars/domain/User.java	/^    private List<IpAddress> ipAddresses = new ArrayList<IpAddress>();$/;"	f	class:User	file:
+isActive	java/javawars/domain/User.java	/^    public boolean isActive() {$/;"	m	class:User
+isDead	java/javawars/JWRobotWrapper.java	/^    public boolean isDead() {$/;"	m	class:JWRobotWrapper
+isDisabled	java/javawars/client/ui/Page.java	/^    public boolean isDisabled() {$/;"	m	class:Page
+isFlawed	java/javawars/JWRobotWrapper.java	/^    public boolean isFlawed() {$/;"	m	class:JWRobotWrapper
+isGuest	java/javawars/domain/User.java	/^    public boolean isGuest() {$/;"	m	class:User
+isOccupied	java/javawars/JWBoard.java	/^    public boolean isOccupied(int x, int y) {$/;"	m	class:JWBoard
+isRepresentant	java/javawars/domain/Robot.java	/^    public boolean isRepresentant() {$/;"	m	class:Robot
+isShootingAllowed	java/javawars/JWRules.java	/^    public boolean isShootingAllowed() {$/;"	m	class:JWRules
+javac	java/javawars/server/services/ServiceProviderImpl.java	/^    private String javac;$/;"	f	class:ServiceProviderImpl	file:
+javawars	java/javawars/ErisMessage.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWAction.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWBoard.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWDirection.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWField.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWMatch.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWRobot.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWRobotWrapper.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWRules.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWSecurityManager.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWTerrainGenerator.java	/^package javawars;$/;"	p
+javawars	java/javawars/JWXML.java	/^package javawars;$/;"	p
+javawars	java/javawars/Main.java	/^package javawars;$/;"	p
+javawars	java/javawars/MainCommandline.java	/^package javawars;$/;"	p
+javawars.actions	java/javawars/actions/Error.java	/^package javawars.actions;$/;"	p
+javawars.actions	java/javawars/actions/Move.java	/^package javawars.actions;$/;"	p
+javawars.actions	java/javawars/actions/Shoot.java	/^package javawars.actions;$/;"	p
+javawars.actions	java/javawars/actions/Wait.java	/^package javawars.actions;$/;"	p
+javawars.client	java/javawars/client/HistoryManager.java	/^package javawars.client;$/;"	p
+javawars.client	java/javawars/client/MainEntryPoint.java	/^package javawars.client;$/;"	p
+javawars.client.data	java/javawars/client/data/ClientConstants.java	/^package javawars.client.data;$/;"	p
+javawars.client.data	java/javawars/client/data/DataProvider.java	/^package javawars.client.data;$/;"	p
+javawars.client.data	java/javawars/client/data/SessionConstants.java	/^package javawars.client.data;$/;"	p
+javawars.client.data.exceptions	java/javawars/client/data/exceptions/ConnectException.java	/^package javawars.client.data.exceptions;$/;"	p
+javawars.client.pages	java/javawars/client/pages/Account.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/Introduction.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/LeaguePage.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/Leagues.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/RobotPage.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/RootPage.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages	java/javawars/client/pages/Workshop.java	/^package javawars.client.pages;$/;"	p
+javawars.client.pages.labels	java/javawars/client/pages/labels/CreateRobot.java	/^package javawars.client.pages.labels;$/;"	p
+javawars.client.pages.labels	java/javawars/client/pages/labels/SimpleLabel.java	/^package javawars.client.pages.labels;$/;"	p
+javawars.client.services	java/javawars/client/services/ServiceProvider.java	/^package javawars.client.services;$/;"	p
+javawars.client.services	java/javawars/client/services/ServiceProviderAsync.java	/^package javawars.client.services;$/;"	p
+javawars.client.ui	java/javawars/client/ui/CompositeProxy.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/DateFormatter.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/MatchViewer.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/MatchViewerClassic.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/MatchViewerFast.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/MatchViewerFastest.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/Page.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/PageWithHorizontalMenu.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/PageWithNoMenu.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/PageWithVerticalMenu.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/SourceEditor.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/SpacerFactory.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui	java/javawars/client/ui/VerticalTabBar.java	/^package javawars.client.ui;$/;"	p
+javawars.client.ui.exceptions	java/javawars/client/ui/exceptions/PageNotFoundException.java	/^package javawars.client.ui.exceptions;$/;"	p
+javawars.domain	java/javawars/domain/IpAddress.java	/^package javawars.domain;$/;"	p
+javawars.domain	java/javawars/domain/League.java	/^package javawars.domain;$/;"	p
+javawars.domain	java/javawars/domain/MatchReport.java	/^package javawars.domain;$/;"	p
+javawars.domain	java/javawars/domain/Robot.java	/^package javawars.domain;$/;"	p
+javawars.domain	java/javawars/domain/User.java	/^package javawars.domain;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/AuthenticationException.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/EntityNotFoundException.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/Enum.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/InactiveAccountException.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/IncorrectParameterException.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.domain.exceptions	java/javawars/domain/exceptions/InvalidSessionException.java	/^package javawars.domain.exceptions;$/;"	p
+javawars.robots	java/javawars/robots/Alpha.java	/^package javawars.robots;$/;"	p
+javawars.robots	java/javawars/robots/Beta.java	/^package javawars.robots;$/;"	p
+javawars.robots	java/javawars/robots/Delta.java	/^package javawars.robots;$/;"	p
+javawars.robots	java/javawars/robots/Gamma.java	/^package javawars.robots;$/;"	p
+javawars.server	java/javawars/server/Filter.java	/^package javawars.server;$/;"	p
+javawars.server	java/javawars/server/LeagueData.java	/^package javawars.server;$/;"	p
+javawars.server.dao	java/javawars/server/dao/IpAddressDAO.java	/^package javawars.server.dao;$/;"	p
+javawars.server.dao	java/javawars/server/dao/LeagueDAO.java	/^package javawars.server.dao;$/;"	p
+javawars.server.dao	java/javawars/server/dao/MatchReportDAO.java	/^package javawars.server.dao;$/;"	p
+javawars.server.dao	java/javawars/server/dao/RobotDAO.java	/^package javawars.server.dao;$/;"	p
+javawars.server.dao	java/javawars/server/dao/UserDAO.java	/^package javawars.server.dao;$/;"	p
+javawars.server.exceptions	java/javawars/server/exceptions/TooManyClassDefinitions.java	/^package javawars.server.exceptions;$/;"	p
+javawars.server.services	java/javawars/server/services/ServiceProviderImpl.java	/^package javawars.server.services;$/;"	p
+javawars.server.servlets	java/javawars/server/servlets/Guest.java	/^package javawars.server.servlets;$/;"	p
+javawars.server.servlets	java/javawars/server/servlets/Login.java	/^package javawars.server.servlets;$/;"	p
+javawars.server.servlets	java/javawars/server/servlets/Logout.java	/^package javawars.server.servlets;$/;"	p
+javawars.server.servlets	java/javawars/server/servlets/Register.java	/^package javawars.server.servlets;$/;"	p
+javawars.testrobots	java/javawars/testrobots/Alpha.java	/^package javawars.testrobots;$/;"	p
+javawars.testrobots	java/javawars/testrobots/Beta.java	/^package javawars.testrobots;$/;"	p
+javawars.testrobots	java/javawars/testrobots/Delta.java	/^package javawars.testrobots;$/;"	p
+javawars.testrobots	java/javawars/testrobots/Gamma.java	/^package javawars.testrobots;$/;"	p
+jwrobot	java/javawars/JWRobotWrapper.java	/^    private final JWRobot jwrobot;$/;"	f	class:JWRobotWrapper	file:
+jwxml	java/javawars/JWMatch.java	/^    private final JWXML jwxml = new JWXML();$/;"	f	class:JWMatch	file:
+kill	java/javawars/JWRobotWrapper.java	/^    public void kill(){$/;"	m	class:JWRobotWrapper
+kill	java/javawars/JWSecurityManager.java	/^    private void kill(Thread thread) {$/;"	m	class:JWSecurityManager	file:
+killGuests	java/javawars/JWSecurityManager.java	/^    public void killGuests() {$/;"	m	class:JWSecurityManager
+kills	java/javawars/client/ui/MatchViewerClassic.java	/^        int kills;$/;"	f	class:MatchViewerClassic.Robot
+kills	java/javawars/domain/Robot.java	/^    private int kills;$/;"	f	class:Robot	file:
+kills	java/javawars/domain/User.java	/^    private int kills;$/;"	f	class:User	file:
+label	java/javawars/client/pages/labels/SimpleLabel.java	/^    private final String label;$/;"	f	class:SimpleLabel	file:
+labelProxy	java/javawars/client/ui/Page.java	/^    protected final CompositeProxy labelProxy = new CompositeProxy() {$/;"	f	class:Page
+lastLoginDate	java/javawars/domain/User.java	/^    private Date lastLoginDate;$/;"	f	class:User	file:
+league	java/javawars/client/pages/LeaguePage.java	/^    private final League league;$/;"	f	class:LeaguePage	file:
+leagueDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    LeagueDAO leagueDAO;$/;"	f	class:ServiceProviderImpl
+leagueList	java/javawars/server/LeagueData.java	/^    private static final List<League> leagueList = new LinkedList<League>();$/;"	f	class:LeagueData	file:
+leagues	java/javawars/client/pages/LeaguePage.java	/^    private final Leagues leagues;$/;"	f	class:LeaguePage	file:
+leagues	java/javawars/domain/MatchReport.java	/^    private Set<League> leagues = new HashSet<League>();$/;"	f	class:MatchReport	file:
+leagues	java/javawars/domain/User.java	/^    private Set<League> leagues = new HashSet<League>();$/;"	f	class:User	file:
+leftMargin	java/javawars/JWXML.java	/^    int leftMargin = 0;$/;"	f	class:JWXML
+localTimer	java/javawars/client/ui/MatchViewerClassic.java	/^        private int localTimer = 0;$/;"	f	class:MatchViewerClassic.Display	file:
+login	java/javawars/client/services/ServiceProvider.java	/^    public Long login (String login, String password, String ipAddress) throws AuthenticationException;$/;"	m	interface:ServiceProvider
+login	java/javawars/client/services/ServiceProviderAsync.java	/^    public void login (String login, String password, String ipAddress, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+login	java/javawars/domain/User.java	/^    private String login;$/;"	f	class:User	file:
+login	java/javawars/server/services/ServiceProviderImpl.java	/^    public Long login(String login, String password, String ipAddress) throws AuthenticationException {$/;"	m	class:ServiceProviderImpl
+main	java/javawars/JWField.java	/^    public static void main(String args[]){$/;"	m	class:JWField
+main	java/javawars/JWXML.java	/^    public static void main(String[] args) {$/;"	m	class:JWXML
+main	java/javawars/Main.java	/^    public static void main(String[] args) {$/;"	m	class:Main
+main	java/javawars/MainCommandline.java	/^    public static void main(String args[]) {$/;"	m	class:MainCommandline
+main	java/javawars/client/ui/MatchViewerClassic.java	/^    public static void main(String[] args) {$/;"	m	class:MatchViewerClassic
+mainContent	java/javawars/client/pages/Introduction.java	/^    private final Composite mainContent = new Composite() { $/;"	f	class:FetchingData	file:
+mainContent	java/javawars/client/pages/Introduction.java	/^    private final Composite mainContent = new Composite() { $/;"	f	class:LeaguesExplanation	file:
+mainPanel	java/javawars/client/pages/labels/CreateRobot.java	/^    private VerticalPanel mainPanel = new VerticalPanel();$/;"	f	class:CreateRobot	file:
+mainPanel	java/javawars/client/ui/MatchViewerClassic.java	/^    private final VerticalPanel mainPanel = new VerticalPanel();$/;"	f	class:MatchViewerClassic	file:
+mainPanel	java/javawars/client/ui/MatchViewerFast.java	/^    private final VerticalPanel mainPanel = new VerticalPanel();$/;"	f	class:MatchViewerFast	file:
+mainPanel	java/javawars/client/ui/MatchViewerFastest.java	/^    private final VerticalPanel mainPanel = new VerticalPanel();$/;"	f	class:MatchViewerFastest	file:
+matchReport	java/javawars/client/ui/MatchViewerFast.java	/^    private String matchReport;$/;"	f	class:MatchViewerFast	file:
+matchReport	java/javawars/client/ui/MatchViewerFastest.java	/^    private String matchReport;$/;"	f	class:MatchViewerFastest	file:
+matchReportDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    MatchReportDAO matchReportDAO;$/;"	f	class:ServiceProviderImpl
+matchReports	java/javawars/domain/League.java	/^    private Set<MatchReport> matchReports = new HashSet<MatchReport>();$/;"	f	class:League	file:
+matches	java/javawars/domain/Robot.java	/^    private Set<MatchReport> matches = new HashSet<MatchReport>();$/;"	f	class:Robot	file:
+matchesComposite	java/javawars/client/pages/LeaguePage.java	/^    private final Composite matchesComposite;$/;"	f	class:LeaguePage	file:
+matchesContent	java/javawars/client/pages/RobotPage.java	/^    private final Composite matchesContent;$/;"	f	class:RobotPage	file:
+maxParticipants	java/javawars/domain/League.java	/^    private int maxParticipants;$/;"	f	class:League	file:
+maxWaitTimeMs	java/javawars/JWRules.java	/^    private int maxWaitTimeMs;$/;"	f	class:JWRules	file:
+md5	java/javawars/server/Filter.java	/^    public static String md5(String input){$/;"	m	class:Filter
+message	java/javawars/robots/Alpha.java	/^    private ErisMessage message;$/;"	f	class:Alpha	file:
+message	java/javawars/robots/Beta.java	/^    private ErisMessage message;$/;"	f	class:Beta	file:
+message	java/javawars/robots/Delta.java	/^    private ErisMessage message;$/;"	f	class:Delta	file:
+message	java/javawars/robots/Gamma.java	/^    private ErisMessage message;$/;"	f	class:Gamma	file:
+message	java/javawars/testrobots/Alpha.java	/^    private ErisMessage message;$/;"	f	class:Alpha	file:
+message	java/javawars/testrobots/Delta.java	/^    private ErisMessage message;$/;"	f	class:Delta	file:
+message	java/javawars/testrobots/Gamma.java	/^    private ErisMessage message;$/;"	f	class:Gamma	file:
+minPopulation	java/javawars/JWRules.java	/^    private int minPopulation = 2;$/;"	f	class:JWRules	file:
+minScore	java/javawars/domain/League.java	/^    private int minScore;$/;"	f	class:League	file:
+modificationDate	java/javawars/domain/Robot.java	/^    private Date modificationDate;$/;"	f	class:Robot	file:
+mountainsOdds	java/javawars/JWTerrainGenerator.java	/^    int mountainsOdds = 10;$/;"	f	class:JWTerrainGenerator
+mountainsPercentage	java/javawars/domain/League.java	/^    private int mountainsPercentage;$/;"	f	class:League	file:
+movingContent	java/javawars/client/pages/Introduction.java	/^    private final Composite movingContent = new Composite() { $/;"	f	class:Moving	file:
+myAccountContent	java/javawars/client/pages/Account.java	/^    private final Composite myAccountContent = new Composite(){$/;"	f	class:Account	file:
+name	java/javawars/JWRobotWrapper.java	/^    private final String author, name;$/;"	f	class:JWRobotWrapper	file:
+name	java/javawars/client/ui/MatchViewerClassic.java	/^        String name;$/;"	f	class:MatchViewerClassic.Robot
+name	java/javawars/client/ui/MatchViewerFast.java	/^        public final String name;$/;"	f	class:MatchViewerFast.Robot
+name	java/javawars/client/ui/MatchViewerFastest.java	/^        public final String name;$/;"	f	class:MatchViewerFastest.Robot
+name	java/javawars/domain/League.java	/^    private String name;$/;"	f	class:League	file:
+name	java/javawars/domain/Robot.java	/^    private String name;$/;"	f	class:Robot	file:
+name	java/javawars/domain/User.java	/^    private String name;$/;"	f	class:User	file:
+nameTB	java/javawars/client/pages/labels/CreateRobot.java	/^    private final TextBox nameTB = new TextBox();$/;"	f	class:CreateRobot	file:
+newAction	java/javawars/client/ui/MatchViewerFast.java	/^        public boolean newAction = false;$/;"	f	class:MatchViewerFast.Robot
+newUser	java/javawars/client/services/ServiceProvider.java	/^    public Long newUser(String login, String password, String email, String studentID, String ipAddress, Boolean guest) throws IncorrectParameterException;$/;"	m	interface:ServiceProvider
+newUser	java/javawars/client/services/ServiceProviderAsync.java	/^    public void newUser(String login, String password, String email, String studentID, String ipAddress, Boolean guest, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+newUser	java/javawars/server/services/ServiceProviderImpl.java	/^    public Long newUser(String login, String password, String email, String studentID, String ipAddress, Boolean guest) throws IncorrectParameterException {$/;"	m	class:ServiceProviderImpl
+next	java/javawars/client/ui/MatchViewerClassic.java	/^        public void next() {$/;"	m	class:MatchViewerClassic.Display
+nextAction	java/javawars/JWRobot.java	/^    public JWAction nextAction();$/;"	m	interface:JWRobot
+nextAction	java/javawars/robots/Alpha.java	/^    public JWAction nextAction() {$/;"	m	class:Alpha
+nextAction	java/javawars/robots/Beta.java	/^    public JWAction nextAction() {$/;"	m	class:Beta
+nextAction	java/javawars/robots/Delta.java	/^    public JWAction nextAction() {$/;"	m	class:Delta
+nextAction	java/javawars/robots/Gamma.java	/^    public JWAction nextAction() {$/;"	m	class:Gamma
+nextAction	java/javawars/testrobots/Alpha.java	/^    public JWAction nextAction() {$/;"	m	class:Alpha
+nextAction	java/javawars/testrobots/Delta.java	/^    public JWAction nextAction() {$/;"	m	class:Delta
+nextAction	java/javawars/testrobots/Gamma.java	/^    public JWAction nextAction() {$/;"	m	class:Gamma
+nextFrame	java/javawars/client/ui/MatchViewerFast.java	/^    public void nextFrame(){$/;"	m	class:MatchViewerFast
+nextFrame	java/javawars/client/ui/MatchViewerFastest.java	/^    public void nextFrame(){$/;"	m	class:MatchViewerFastest
+objectCreationDate	java/javawars/client/data/SessionConstants.java	/^    Date objectCreationDate = new Date();$/;"	f	class:SessionConstants
+oldBoard	java/javawars/JWMatch.java	/^    private JWBoard oldBoard;$/;"	f	class:JWMatch	file:
+oldSet	java/javawars/client/ui/MatchViewerClassic.java	/^            Robot [] oldSet;$/;"	f	class:MatchViewerClassic.Display.RobotsInfo
+ommitDefaultContent	java/javawars/client/ui/Page.java	/^    private boolean ommitDefaultContent = true;$/;"	f	class:Page	file:
+onBrowserEvent	java/javawars/client/ui/VerticalTabBar.java	/^    public void onBrowserEvent(Event event) {$/;"	m	class:VerticalTabBar.ClickDecoratorPanel
+onChildAdd	java/javawars/client/ui/Page.java	/^    protected abstract void onChildAdd(Page child);$/;"	m	class:Page
+onChildAdd	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    protected void onChildAdd(Page child) {$/;"	m	class:PageWithHorizontalMenu
+onChildAdd	java/javawars/client/ui/PageWithNoMenu.java	/^    protected void onChildAdd(Page child) {$/;"	m	class:PageWithNoMenu
+onChildAdd	java/javawars/client/ui/PageWithVerticalMenu.java	/^    protected void onChildAdd(Page child) {$/;"	m	class:PageWithVerticalMenu
+onChildRemove	java/javawars/client/pages/Workshop.java	/^    protected void onChildRemove(Page child, int childIndex) {$/;"	m	class:Workshop
+onChildRemove	java/javawars/client/ui/Page.java	/^    protected abstract void onChildRemove(Page child, int childIndex);$/;"	m	class:Page
+onChildRemove	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    protected void onChildRemove(Page child, int childIndex) {$/;"	m	class:PageWithHorizontalMenu
+onChildRemove	java/javawars/client/ui/PageWithNoMenu.java	/^    protected void onChildRemove(Page child, int childIndex) {        $/;"	m	class:PageWithNoMenu
+onChildRemove	java/javawars/client/ui/PageWithVerticalMenu.java	/^    protected void onChildRemove(Page child, int childIndex) {$/;"	m	class:PageWithVerticalMenu
+onClick	java/javawars/client/ui/VerticalTabBar.java	/^  public void onClick(Widget sender) {$/;"	m	class:VerticalTabBar
+onContentChange	java/javawars/client/ui/Page.java	/^    protected void onContentChange(){$/;"	m	class:Page
+onContentChange	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    protected void onContentChange() {$/;"	m	class:PageWithHorizontalMenu
+onContentChange	java/javawars/client/ui/PageWithVerticalMenu.java	/^    protected void onContentChange() {$/;"	m	class:PageWithVerticalMenu
+onHistoryChanged	java/javawars/client/HistoryManager.java	/^    public void onHistoryChanged(String token) {$/;"	m	class:HistoryManager
+onLoad	java/javawars/client/ui/CompositeProxy.java	/^    protected void onLoad() {$/;"	m	class:CompositeProxy
+onLoad	java/javawars/client/ui/Page.java	/^    protected final void onLoad() {$/;"	m	class:Page
+onModuleLoad	java/javawars/client/MainEntryPoint.java	/^    public void onModuleLoad() {$/;"	m	class:MainEntryPoint
+openTag	java/javawars/JWXML.java	/^    public void openTag(String tag) {$/;"	m	class:JWXML
+pageVP	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    private final VerticalPanel pageVP = new VerticalPanel();$/;"	f	class:PageWithHorizontalMenu	file:
+pageVP	java/javawars/client/ui/PageWithNoMenu.java	/^    private final VerticalPanel pageVP = new VerticalPanel();$/;"	f	class:PageWithNoMenu	file:
+pageVP	java/javawars/client/ui/PageWithVerticalMenu.java	/^    private final FlowPanel pageVP = new FlowPanel();$/;"	f	class:PageWithVerticalMenu	file:
+panel	java/javawars/client/ui/VerticalTabBar.java	/^  private VerticalPanel panel = new VerticalPanel();$/;"	f	class:VerticalTabBar	file:
+param1	java/javawars/client/ui/MatchViewerFast.java	/^        public String param1 = "";$/;"	f	class:MatchViewerFast.Robot
+param1	java/javawars/client/ui/MatchViewerFastest.java	/^        public String param1 = "";$/;"	f	class:MatchViewerFastest.Robot
+parameter	java/javawars/domain/exceptions/IncorrectParameterException.java	/^    private Parameter parameter;$/;"	f	class:IncorrectParameterException	file:
+parentPage	java/javawars/client/ui/Page.java	/^    private Page parentPage = null;$/;"	f	class:Page	file:
+password	java/javawars/domain/League.java	/^    private String password;$/;"	f	class:League	file:
+password	java/javawars/domain/User.java	/^    private String password;$/;"	f	class:User	file:
+pastBoard	java/javawars/client/ui/MatchViewerClassic.java	/^        Board pastBoard;$/;"	f	class:MatchViewerClassic.Display
+player	java/javawars/client/ui/MatchViewerFast.java	/^        public final int player;$/;"	f	class:MatchViewerFast.Field
+player	java/javawars/client/ui/MatchViewerFastest.java	/^        public final int player;$/;"	f	class:MatchViewerFastest.Field
+playerColors	java/javawars/client/ui/MatchViewerFast.java	/^    private static final String [] playerColors = {$/;"	f	class:MatchViewerFast	file:
+playerColors	java/javawars/client/ui/MatchViewerFastest.java	/^    private static final String [] playerColors = {$/;"	f	class:MatchViewerFastest	file:
+position	java/javawars/JWRobotWrapper.java	/^    private Point position;$/;"	f	class:JWRobotWrapper	file:
+position	java/javawars/client/ui/MatchViewerClassic.java	/^        int position = 0;$/;"	f	class:MatchViewerClassic.Display
+positionCache	java/javawars/client/ui/MatchViewerClassic.java	/^        private int positionCache = position;$/;"	f	class:MatchViewerClassic.Display	file:
+power	java/javawars/actions/Shoot.java	/^    private int x,  y,  power;$/;"	f	class:Shoot	file:
+previous	java/javawars/client/ui/MatchViewerClassic.java	/^        public void previous() {$/;"	m	class:MatchViewerClassic.Display
+processRequest	java/javawars/server/servlets/Guest.java	/^    protected void processRequest(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Guest
+processRequest	java/javawars/server/servlets/Login.java	/^    protected void processRequest(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Login
+processRequest	java/javawars/server/servlets/Logout.java	/^    protected void processRequest(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Logout
+processRequest	java/javawars/server/servlets/Register.java	/^    protected void processRequest(HttpServletRequest request, HttpServletResponse response)$/;"	m	class:Register
+receiveData	java/javawars/JWRobot.java	/^    public void receiveData(ErisMessage message);$/;"	m	interface:JWRobot
+receiveData	java/javawars/robots/Alpha.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Alpha
+receiveData	java/javawars/robots/Beta.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Beta
+receiveData	java/javawars/robots/Delta.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Delta
+receiveData	java/javawars/robots/Gamma.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Gamma
+receiveData	java/javawars/testrobots/Alpha.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Alpha
+receiveData	java/javawars/testrobots/Delta.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Delta
+receiveData	java/javawars/testrobots/Gamma.java	/^    public void receiveData(ErisMessage message) {$/;"	m	class:Gamma
+removeAllChildrenPages	java/javawars/client/ui/Page.java	/^    public final void removeAllChildrenPages() {$/;"	m	class:Page
+removeChildPage	java/javawars/client/ui/Page.java	/^    public final Page removeChildPage(String url) {$/;"	m	class:Page
+removeChildPage	java/javawars/client/ui/Page.java	/^    public final Page removeChildPage(int index) {$/;"	m	class:Page
+removeLeague	java/javawars/server/dao/LeagueDAO.java	/^    public void removeLeague(Long league){$/;"	m	class:LeagueDAO
+removeRobot	java/javawars/server/dao/MatchReportDAO.java	/^    public void removeRobot(Long matchReportID){$/;"	m	class:MatchReportDAO
+removeRobot	java/javawars/server/dao/RobotDAO.java	/^    public void removeRobot(Long robotID){$/;"	m	class:RobotDAO
+removeTab	java/javawars/client/ui/VerticalTabBar.java	/^  public void removeTab(int index) {$/;"	m	class:VerticalTabBar
+removeTabListener	java/javawars/client/ui/VerticalTabBar.java	/^  public void removeTabListener(TabListener listener) {$/;"	m	class:VerticalTabBar
+removeUser	java/javawars/server/dao/IpAddressDAO.java	/^    public void removeUser(Long ipAddressId){$/;"	m	class:IpAddressDAO
+removeUser	java/javawars/server/dao/UserDAO.java	/^    public void removeUser(Long userId){$/;"	m	class:UserDAO
+renameClass	java/javawars/server/services/ServiceProviderImpl.java	/^    private String renameClass(String source, String id) throws TooManyClassDefinitions {$/;"	m	class:ServiceProviderImpl	file:
+renderCell	java/javawars/client/ui/MatchViewerFast.java	/^    private String renderCell(Field field, int fieldX, int fieldY){$/;"	m	class:MatchViewerFast	file:
+renderCell	java/javawars/client/ui/MatchViewerFastest.java	/^    private String renderCell(Field field){$/;"	m	class:MatchViewerFastest	file:
+renderRobotsDescription	java/javawars/client/ui/MatchViewerFast.java	/^    private String renderRobotsDescription( Robot[] robots, int width){$/;"	m	class:MatchViewerFast	file:
+renderRobotsDescription	java/javawars/client/ui/MatchViewerFastest.java	/^    private String renderRobotsDescription( Robot[] robots){$/;"	m	class:MatchViewerFastest	file:
+representant	java/javawars/domain/Robot.java	/^    private boolean representant = false;$/;"	f	class:Robot	file:
+request	java/javawars/server/services/ServiceProviderImpl.java	/^    private HttpServletRequest request;$/;"	f	class:ServiceProviderImpl	file:
+response	java/javawars/server/services/ServiceProviderImpl.java	/^    private HttpServletResponse response;$/;"	f	class:ServiceProviderImpl	file:
+rewind	java/javawars/client/ui/MatchViewerClassic.java	/^        public void rewind(){$/;"	m	class:MatchViewerClassic.Display
+robot	java/javawars/JWField.java	/^    int robot;$/;"	f	class:JWField
+robot	java/javawars/JWMatch.java	/^    private final JWRobotWrapper robot;$/;"	f	class:CommunicationThread	file:
+robot	java/javawars/client/pages/RobotPage.java	/^    private final Robot robot;$/;"	f	class:RobotPage	file:
+robot	java/javawars/client/ui/MatchViewerClassic.java	/^            int robot = 0;$/;"	f	class:MatchViewerClassic.Board.Field
+robot	java/javawars/client/ui/MatchViewerClassic.java	/^            private final int elevation, gem, robot, x, y;$/;"	f	class:MatchViewerClassic.Display.InteractiveCell	file:
+robotDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    RobotDAO robotDAO;$/;"	f	class:ServiceProviderImpl
+robotLabel	java/javawars/client/pages/RobotPage.java	/^    private final Composite robotLabel;$/;"	f	class:RobotPage	file:
+robotList	java/javawars/client/pages/Workshop.java	/^    private List<Robot> robotList = new ArrayList<Robot>();$/;"	f	class:Workshop	file:
+robotMap	java/javawars/ErisMessage.java	/^    private final int[][] robotMap;$/;"	f	class:ErisMessage	file:
+robotWrapper	java/javawars/ErisMessage.java	/^    private final JWRobotWrapper robotWrapper;$/;"	f	class:ErisMessage	file:
+robots	java/javawars/JWMatch.java	/^    private final List<JWRobotWrapper> robots = new ArrayList<JWRobotWrapper>();$/;"	f	class:JWMatch	file:
+robots	java/javawars/client/ui/MatchViewerClassic.java	/^    private Robot[][] robots;$/;"	f	class:MatchViewerClassic	file:
+robots	java/javawars/client/ui/MatchViewerFast.java	/^    private Robot[] robots;$/;"	f	class:MatchViewerFast	file:
+robots	java/javawars/client/ui/MatchViewerFastest.java	/^    private Robot[] robots;$/;"	f	class:MatchViewerFastest	file:
+robots	java/javawars/domain/MatchReport.java	/^    private Set<Robot> robots = new HashSet<Robot>();$/;"	f	class:MatchReport	file:
+robots	java/javawars/domain/User.java	/^    private Set<Robot> robots = new HashSet<Robot>();$/;"	f	class:User	file:
+robotsBinPath	java/javawars/server/services/ServiceProviderImpl.java	/^    private String robotsBinPath;$/;"	f	class:ServiceProviderImpl	file:
+robotsDescription	java/javawars/client/ui/MatchViewerFast.java	/^    private final HTML robotsDescription = new HTML();$/;"	f	class:MatchViewerFast	file:
+robotsInfoGrid	java/javawars/client/ui/MatchViewerClassic.java	/^        private RobotsInfo robotsInfoGrid = new RobotsInfo();$/;"	f	class:MatchViewerClassic.Display	file:
+robotsPackage	java/javawars/server/services/ServiceProviderImpl.java	/^    private final String robotsPackage = "javawars.robots.";    \/\/ the code which all new robots receive$/;"	f	class:ServiceProviderImpl	file:
+robotsPath	java/javawars/server/services/ServiceProviderImpl.java	/^    private final String robotsPath = "javawars\/robots\/";$/;"	f	class:ServiceProviderImpl	file:
+rootPage	java/javawars/client/HistoryManager.java	/^    private final Page rootPage;$/;"	f	class:HistoryManager	file:
+rootSet	java/javawars/client/ui/MatchViewerClassic.java	/^            Robot [] rootSet;$/;"	f	class:MatchViewerClassic.Display.RobotsInfo
+rules	java/javawars/JWMatch.java	/^    private final JWRules rules;$/;"	f	class:JWMatch	file:
+run	java/javawars/JWMatch.java	/^    public void run() {$/;"	m	class:CommunicationThread
+run	java/javawars/JWMatch.java	/^    public void run() {$/;"	m	class:JWMatch
+saveOrUpdateIpAddress	java/javawars/server/dao/IpAddressDAO.java	/^    public void saveOrUpdateIpAddress (IpAddress ipAddress){$/;"	m	class:IpAddressDAO
+saveOrUpdateLeague	java/javawars/server/dao/LeagueDAO.java	/^    public void saveOrUpdateLeague(League league){$/;"	m	class:LeagueDAO
+saveOrUpdateMatchReport	java/javawars/server/dao/MatchReportDAO.java	/^    public void saveOrUpdateMatchReport(MatchReport matchReport){$/;"	m	class:MatchReportDAO
+saveOrUpdateRobot	java/javawars/server/dao/RobotDAO.java	/^    public void saveOrUpdateRobot(Robot robot){$/;"	m	class:RobotDAO
+saveOrUpdateUser	java/javawars/server/dao/UserDAO.java	/^    public void saveOrUpdateUser(User user){$/;"	m	class:UserDAO
+score	java/javawars/JWRobotWrapper.java	/^    private int score = 0;$/;"	f	class:JWRobotWrapper	file:
+score	java/javawars/client/ui/MatchViewerClassic.java	/^        int score;$/;"	f	class:MatchViewerClassic.Robot
+score	java/javawars/domain/Robot.java	/^    private int score;$/;"	f	class:Robot	file:
+score	java/javawars/domain/User.java	/^    private int score;$/;"	f	class:User	file:
+scoreMultiplier	java/javawars/domain/League.java	/^    private int scoreMultiplier;$/;"	f	class:League	file:
+seek	java/javawars/JWSecurityManager.java	/^    private void seek(ThreadGroup group, int level) {$/;"	m	class:JWSecurityManager	file:
+selectAsRepresentant	java/javawars/client/services/ServiceProvider.java	/^    public void selectAsRepresentant(String robotName);$/;"	m	interface:ServiceProvider
+selectAsRepresentant	java/javawars/client/services/ServiceProviderAsync.java	/^    public void selectAsRepresentant(String robotName, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+selectAsRepresentant	java/javawars/server/services/ServiceProviderImpl.java	/^    public void selectAsRepresentant(String robotName) {$/;"	m	class:ServiceProviderImpl
+selectTab	java/javawars/client/ui/VerticalTabBar.java	/^  public boolean selectTab(int index) {$/;"	m	class:VerticalTabBar
+selectedChild	java/javawars/client/ui/Page.java	/^    private int selectedChild = -1;$/;"	f	class:Page	file:
+selectedRobot	java/javawars/domain/User.java	/^    private String selectedRobot;$/;"	f	class:User	file:
+selectedTab	java/javawars/client/ui/VerticalTabBar.java	/^  private Widget selectedTab;$/;"	f	class:VerticalTabBar	file:
+service	java/javawars/client/data/DataProvider.java	/^     private final ServiceProviderAsync service;$/;"	f	class:DataProvider	file:
+sessionConstants	java/javawars/client/data/DataProvider.java	/^    private SessionConstants sessionConstants;$/;"	f	class:DataProvider	file:
+sessionConstantsInitialized	java/javawars/client/data/DataProvider.java	/^    private boolean sessionConstantsInitialized = false;$/;"	f	class:DataProvider	file:
+setActionDelay	java/javawars/JWRobotWrapper.java	/^    public void setActionDelay(int actionDelay) {$/;"	m	class:JWRobotWrapper
+setActive	java/javawars/domain/User.java	/^    public void setActive(boolean active) {$/;"	m	class:User
+setApplicationPath	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setApplicationPath(String applicationPath) {$/;"	m	class:ServiceProviderImpl
+setBoardHeight	java/javawars/JWRules.java	/^    public void setBoardHeight(int boardHeight) {$/;"	m	class:JWRules
+setBoardWidth	java/javawars/JWRules.java	/^    public void setBoardWidth(int boardWidth) {$/;"	m	class:JWRules
+setCode	java/javawars/domain/Robot.java	/^    public void setCode(String code) {$/;"	m	class:Robot
+setCreationDate	java/javawars/domain/Robot.java	/^    public void setCreationDate(Date creationDate) {$/;"	m	class:Robot
+setCreationDate	java/javawars/domain/User.java	/^    public void setCreationDate(Date creationDate) {$/;"	m	class:User
+setCurrentuser	java/javawars/client/data/SessionConstants.java	/^    public void setCurrentuser(User currentuser) {$/;"	m	class:SessionConstants
+setDate	java/javawars/domain/MatchReport.java	/^    public void setDate(Date date) {$/;"	m	class:MatchReport
+setDeclaredAction	java/javawars/JWRobotWrapper.java	/^    public void setDeclaredAction(JWAction declaredAction) {$/;"	m	class:JWRobotWrapper
+setDescription	java/javawars/domain/League.java	/^    public void setDescription(String description) {$/;"	m	class:League
+setDisabled	java/javawars/client/ui/Page.java	/^    public void setDisabled(boolean disabled) {$/;"	m	class:Page
+setElevation	java/javawars/client/ui/MatchViewerClassic.java	/^            public void setElevation(int elevation) {$/;"	m	class:MatchViewerClassic.Board.Field
+setElevationAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public void setElevationAt(int x, int y, int newValue) {$/;"	m	class:MatchViewerClassic.Board
+setEmail	java/javawars/domain/User.java	/^    public void setEmail(String email) {$/;"	m	class:User
+setFlawed	java/javawars/JWRobotWrapper.java	/^    public void setFlawed() {$/;"	m	class:JWRobotWrapper
+setGameLength	java/javawars/JWRules.java	/^    public void setGameLength(int gameLength) {$/;"	m	class:JWRules
+setGameLength	java/javawars/domain/League.java	/^    public void setGameLength(int gameLength) {$/;"	m	class:League
+setGames	java/javawars/domain/Robot.java	/^    public void setGames(int games) {$/;"	m	class:Robot
+setGem	java/javawars/JWField.java	/^    public void setGem(int gem) {$/;"	m	class:JWField
+setGem	java/javawars/client/ui/MatchViewerClassic.java	/^            public void setGem(int gems) {$/;"	m	class:MatchViewerClassic.Board.Field
+setGemAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public void setGemAt(int x, int y, int newValue) {$/;"	m	class:MatchViewerClassic.Board
+setGemPercentage	java/javawars/domain/League.java	/^    public void setGemPercentage(int gemPercentage) {$/;"	m	class:League
+setGems	java/javawars/domain/User.java	/^    public void setGems(int gems) {$/;"	m	class:User
+setGrasslandPercentage	java/javawars/domain/League.java	/^    public void setGrasslandPercentage(int grasslandPercentage) {$/;"	m	class:League
+setGuest	java/javawars/domain/User.java	/^    public void setGuest(boolean guest) {$/;"	m	class:User
+setHealth	java/javawars/JWRobotWrapper.java	/^    public void setHealth(int health) {$/;"	m	class:JWRobotWrapper
+setHeight	java/javawars/JWField.java	/^    public void setHeight(int height) {$/;"	m	class:JWField
+setHeight	java/javawars/domain/League.java	/^    public void setHeight(int height) {$/;"	m	class:League
+setHillsPercentage	java/javawars/domain/League.java	/^    public void setHillsPercentage(int hillsPercentage) {$/;"	m	class:League
+setId	java/javawars/domain/IpAddress.java	/^    private void setId(Long id) {$/;"	m	class:IpAddress	file:
+setId	java/javawars/domain/League.java	/^    private void setId(Long id) {$/;"	m	class:League	file:
+setId	java/javawars/domain/MatchReport.java	/^    private void setId(Long id) {$/;"	m	class:MatchReport	file:
+setId	java/javawars/domain/Robot.java	/^    private void setId(Long id) {$/;"	m	class:Robot	file:
+setId	java/javawars/domain/User.java	/^    private void setId(Long id) {$/;"	m	class:User	file:
+setIpAddress	java/javawars/domain/IpAddress.java	/^    public void setIpAddress(String ipAddress) {$/;"	m	class:IpAddress
+setIpAddressDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setIpAddressDAO(IpAddressDAO ipAddressDAO) {$/;"	m	class:ServiceProviderImpl
+setIpAddresses	java/javawars/domain/User.java	/^    public void setIpAddresses(List<IpAddress> ipAddresses) {$/;"	m	class:User
+setJavac	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setJavac(String javac) {$/;"	m	class:ServiceProviderImpl
+setKills	java/javawars/domain/Robot.java	/^    public void setKills(int kills) {$/;"	m	class:Robot
+setKills	java/javawars/domain/User.java	/^    public void setKills(int kills) {$/;"	m	class:User
+setLastLoginDate	java/javawars/domain/User.java	/^    public void setLastLoginDate(Date lastLoginDate) {$/;"	m	class:User
+setLeagueDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setLeagueDAO(LeagueDAO leagueDAO) {$/;"	m	class:ServiceProviderImpl
+setLeagues	java/javawars/domain/MatchReport.java	/^    public void setLeagues(Set<League> leagues) {$/;"	m	class:MatchReport
+setLeagues	java/javawars/domain/User.java	/^    public void setLeagues(Set<League> leagues) {$/;"	m	class:User
+setLogin	java/javawars/domain/User.java	/^    public void setLogin(String login) {$/;"	m	class:User
+setMatchReportDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setMatchReportDAO(MatchReportDAO matchReportDAO) {$/;"	m	class:ServiceProviderImpl
+setMatchReports	java/javawars/domain/League.java	/^    public void setMatchReports(Set<MatchReport> matchReports) {$/;"	m	class:League
+setMatches	java/javawars/domain/Robot.java	/^    public void setMatches(Set<MatchReport> matches) {$/;"	m	class:Robot
+setMaxParticipants	java/javawars/domain/League.java	/^    public void setMaxParticipants(int maxParticipants) {$/;"	m	class:League
+setMaxWaitTimeMs	java/javawars/JWRules.java	/^    public void setMaxWaitTimeMs(int maxWaitTimeMs) {$/;"	m	class:JWRules
+setMinPopulation	java/javawars/JWRules.java	/^    public void setMinPopulation(int minPopulation) {$/;"	m	class:JWRules
+setMinScore	java/javawars/domain/League.java	/^    public void setMinScore(int minScore) {$/;"	m	class:League
+setModificationDate	java/javawars/domain/Robot.java	/^    public void setModificationDate(Date modificationDate) {$/;"	m	class:Robot
+setMountainsPercentage	java/javawars/domain/League.java	/^    public void setMountainsPercentage(int mountainsPercentage) {$/;"	m	class:League
+setName	java/javawars/domain/League.java	/^    public void setName(String name) {$/;"	m	class:League
+setName	java/javawars/domain/Robot.java	/^    public void setName(String name) {$/;"	m	class:Robot
+setName	java/javawars/domain/User.java	/^    public void setName(String name) {$/;"	m	class:User
+setOmmitDefaultContent	java/javawars/client/ui/Page.java	/^    public void setOmmitDefaultContent(boolean ommitDefaultContent) {$/;"	m	class:Page
+setParentPage	java/javawars/client/ui/Page.java	/^    private final void setParentPage(Page parentPage) {$/;"	m	class:Page	file:
+setPassword	java/javawars/domain/League.java	/^    public void setPassword(String password) {$/;"	m	class:League
+setPassword	java/javawars/domain/User.java	/^    public void setPassword(String password) {$/;"	m	class:User
+setPosition	java/javawars/JWRobotWrapper.java	/^    public void setPosition(Point position) {$/;"	m	class:JWRobotWrapper
+setRepresentant	java/javawars/domain/Robot.java	/^    public void setRepresentant(boolean representant) {$/;"	m	class:Robot
+setRequest	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setRequest(HttpServletRequest request) {$/;"	m	class:ServiceProviderImpl
+setResponse	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setResponse(HttpServletResponse response) {$/;"	m	class:ServiceProviderImpl
+setRobot	java/javawars/JWField.java	/^    public void setRobot(int robot) {$/;"	m	class:JWField
+setRobot	java/javawars/client/ui/MatchViewerClassic.java	/^            public void setRobot(int robots) {$/;"	m	class:MatchViewerClassic.Board.Field
+setRobotAt	java/javawars/client/ui/MatchViewerClassic.java	/^        public void setRobotAt(int x, int y, int newValue) {$/;"	m	class:MatchViewerClassic.Board
+setRobotDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setRobotDAO(RobotDAO robotDAO) {$/;"	m	class:ServiceProviderImpl
+setRobots	java/javawars/domain/MatchReport.java	/^    public void setRobots(Set<Robot> robots) {$/;"	m	class:MatchReport
+setRobots	java/javawars/domain/User.java	/^    public void setRobots(Set<Robot> robots) {$/;"	m	class:User
+setRobotsBinPath	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setRobotsBinPath(String robotsBinPath) {$/;"	m	class:ServiceProviderImpl
+setScore	java/javawars/JWRobotWrapper.java	/^    public void setScore(int score) {$/;"	m	class:JWRobotWrapper
+setScore	java/javawars/domain/Robot.java	/^    public void setScore(int score) {$/;"	m	class:Robot
+setScore	java/javawars/domain/User.java	/^    public void setScore(int score) {$/;"	m	class:User
+setScoreMultiplier	java/javawars/domain/League.java	/^    public void setScoreMultiplier(int scoreMultiplier) {$/;"	m	class:League
+setSelectedRobot	java/javawars/domain/User.java	/^    public void setSelectedRobot(String selectedRobot) {$/;"	m	class:User
+setSelectionStyle	java/javawars/client/ui/VerticalTabBar.java	/^  private void setSelectionStyle(Widget item, boolean selected) {$/;"	m	class:VerticalTabBar	file:
+setShootingAllowed	java/javawars/JWRules.java	/^    public void setShootingAllowed(boolean shootPermitted) {$/;"	m	class:JWRules
+setShootingAllowed	java/javawars/domain/League.java	/^    public void setShootingAllowed(boolean shootingAllowed) {$/;"	m	class:League
+setSize	java/javawars/domain/League.java	/^    public void setSize(int newWidth, int newHeight){$/;"	m	class:League
+setStartGems	java/javawars/domain/User.java	/^    public void setStartGems(int startGems) {$/;"	m	class:User
+setStartKills	java/javawars/domain/User.java	/^    public void setStartKills(int startKills) {$/;"	m	class:User
+setStartScore	java/javawars/domain/User.java	/^    public void setStartScore(int startScore) {$/;"	m	class:User
+setStartWins	java/javawars/domain/User.java	/^    public void setStartWins(int startWins) {$/;"	m	class:User
+setStudentID	java/javawars/domain/User.java	/^    public void setStudentID(String studentID) {$/;"	m	class:User
+setSurname	java/javawars/domain/User.java	/^    public void setSurname(String surname) {$/;"	m	class:User
+setTerrainGenerator	java/javawars/JWRules.java	/^    public void setTerrainGenerator(JWTerrainGenerator terrainGenerator) {$/;"	m	class:JWRules
+setTerrainOdds	java/javawars/domain/League.java	/^    public void setTerrainOdds(int grassland, int hills, int mountains){$/;"	m	class:League
+setText	java/javawars/client/ui/SourceEditor.java	/^    public void setText(String source){$/;"	m	class:SourceEditor
+setText	java/javawars/client/ui/SourceEditor.java	/^    public void setText(String source, int width, int height){$/;"	m	class:SourceEditor
+setTime	java/javawars/client/ui/MatchViewerClassic.java	/^        public void setTime(int time) {$/;"	m	class:MatchViewerClassic.Board
+setUserDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    public void setUserDAO(UserDAO userDAO) {$/;"	m	class:ServiceProviderImpl
+setUsers	java/javawars/domain/IpAddress.java	/^    public void setUsers(List<User> users) {$/;"	m	class:IpAddress
+setUsers	java/javawars/domain/League.java	/^    public void setUsers(Set<User> users) {$/;"	m	class:League
+setUsers	java/javawars/domain/Robot.java	/^    protected void setUsers(Set<User> users) {$/;"	m	class:Robot
+setWidth	java/javawars/domain/League.java	/^    public void setWidth(int width) {$/;"	m	class:League
+setWins	java/javawars/domain/Robot.java	/^    public void setWins(int wins) {$/;"	m	class:Robot
+setWins	java/javawars/domain/User.java	/^    public void setWins(int wins) {$/;"	m	class:User
+setXmlDescription	java/javawars/domain/MatchReport.java	/^    public void setXmlDescription(String xmlDescription) {$/;"	m	class:MatchReport
+shootingAllowed	java/javawars/JWRules.java	/^    private boolean shootingAllowed;$/;"	f	class:JWRules	file:
+shootingAllowed	java/javawars/domain/League.java	/^    private boolean shootingAllowed;$/;"	f	class:League	file:
+show	java/javawars/client/ui/MatchViewer.java	/^    public abstract void show(String match);$/;"	m	class:MatchViewer
+show	java/javawars/client/ui/MatchViewerClassic.java	/^    public void show(String string) {$/;"	m	class:MatchViewerClassic
+show	java/javawars/client/ui/MatchViewerFast.java	/^    public void show(final String matchReport) {$/;"	m	class:MatchViewerFast
+show	java/javawars/client/ui/MatchViewerFastest.java	/^    public void show(final String matchReport) {$/;"	m	class:MatchViewerFastest
+showAction	java/javawars/client/ui/MatchViewerFast.java	/^    boolean showAction = true;$/;"	f	class:MatchViewerFast
+showActionProgress	java/javawars/client/ui/MatchViewerFast.java	/^    private final CheckBox showActionProgress = new CheckBox("<span style='font-size: 10px; color: #555;'>pokazuj postęp wykonania akcji<\/span>", true);$/;"	f	class:MatchViewerFast	file:
+showChildPage	java/javawars/client/ui/Page.java	/^    public final void showChildPage(String url) {$/;"	m	class:Page
+showChildPage	java/javawars/client/ui/Page.java	/^    public final void showChildPage(int index) {$/;"	m	class:Page
+showComposite	java/javawars/client/ui/Page.java	/^    public final void showComposite(Composite composite) {$/;"	m	class:Page
+showInitialContent	java/javawars/client/ui/Page.java	/^    public final void showInitialContent() {$/;"	m	class:Page
+simplePanel	java/javawars/client/pages/labels/SimpleLabel.java	/^    private final SimplePanel simplePanel = new SimplePanel();$/;"	f	class:SimpleLabel	file:
+stack	java/javawars/JWXML.java	/^    private LinkedList<String> stack = new LinkedList<String>();$/;"	f	class:JWXML	file:
+startGems	java/javawars/domain/User.java	/^    private int startGems;$/;"	f	class:User	file:
+startKills	java/javawars/domain/User.java	/^    private int startKills;$/;"	f	class:User	file:
+startScore	java/javawars/domain/User.java	/^    private int startScore;$/;"	f	class:User	file:
+startWins	java/javawars/domain/User.java	/^    private int startWins;$/;"	f	class:User	file:
+statisticsContent	java/javawars/client/pages/RobotPage.java	/^    private final Composite statisticsContent;$/;"	f	class:RobotPage	file:
+studentID	java/javawars/domain/User.java	/^    private String studentID;$/;"	f	class:User	file:
+submitBT	java/javawars/client/pages/labels/CreateRobot.java	/^    private final Button submitBT = new Button ("Utwórz");$/;"	f	class:CreateRobot	file:
+subscribeToLeague	java/javawars/client/services/ServiceProvider.java	/^    public League subscribeToLeague(String leagueName) throws AuthenticationException;$/;"	m	interface:ServiceProvider
+subscribeToLeague	java/javawars/client/services/ServiceProviderAsync.java	/^    public void subscribeToLeague(String leagueName, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+subscribeToLeague	java/javawars/server/services/ServiceProviderImpl.java	/^    public League subscribeToLeague(String leagueName) throws AuthenticationException {$/;"	m	class:ServiceProviderImpl
+surname	java/javawars/domain/User.java	/^    private String surname;$/;"	f	class:User	file:
+tabBar	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    private final TabBar tabBar = new TabBar();$/;"	f	class:PageWithHorizontalMenu	file:
+tabBar	java/javawars/client/ui/PageWithVerticalMenu.java	/^    private final VerticalTabBar tabBar = new VerticalTabBar();$/;"	f	class:PageWithVerticalMenu	file:
+tabListeners	java/javawars/client/ui/VerticalTabBar.java	/^  private TabListenerCollection tabListeners;$/;"	f	class:VerticalTabBar	file:
+table	java/javawars/client/ui/MatchViewerFast.java	/^    private FlexTable table = new FlexTable();$/;"	f	class:MatchViewerFast	file:
+table	java/javawars/client/ui/MatchViewerFastest.java	/^    private FlexTable table;$/;"	f	class:MatchViewerFastest	file:
+tableComposite	java/javawars/client/pages/LeaguePage.java	/^    private final Composite tableComposite;$/;"	f	class:LeaguePage	file:
+tableWidth	java/javawars/client/ui/MatchViewerFast.java	/^    private int tableWidth = 0;$/;"	f	class:MatchViewerFast	file:
+terrainGenerator	java/javawars/JWRules.java	/^    private JWTerrainGenerator terrainGenerator;$/;"	f	class:JWRules	file:
+testContent	java/javawars/client/pages/RobotPage.java	/^    private final Composite testContent;$/;"	f	class:RobotPage	file:
+testRobots	java/javawars/client/services/ServiceProvider.java	/^    public MatchReport testRobots(int leagueNumber, List<String> robotNames);$/;"	m	interface:ServiceProvider
+testRobots	java/javawars/client/services/ServiceProviderAsync.java	/^    public void testRobots(int leagueNumber, List<String> robotNames, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+testRobots	java/javawars/server/services/ServiceProviderImpl.java	/^    public MatchReport testRobots(int leagueNumber, List<String> robotNames) {$/;"	m	class:ServiceProviderImpl
+time	java/javawars/client/ui/MatchViewerClassic.java	/^        private int time = -1;$/;"	f	class:MatchViewerClassic.Board	file:
+timeLB	java/javawars/client/ui/MatchViewerClassic.java	/^        private final Label timeLB = new Label("Klatka: 0 ");$/;"	f	class:MatchViewerClassic.Display	file:
+timer	java/javawars/JWMatch.java	/^    private int timer = 0;$/;"	f	class:JWMatch	file:
+timer	java/javawars/client/ui/MatchViewerFast.java	/^    private Timer timer;$/;"	f	class:MatchViewerFast	file:
+timer	java/javawars/client/ui/MatchViewerFastest.java	/^    private Timer timer;$/;"	f	class:MatchViewerFastest	file:
+timestamps	java/javawars/client/ui/MatchViewerClassic.java	/^    private Node[] timestamps;$/;"	f	class:MatchViewerClassic	file:
+toString	java/javawars/JWBoard.java	/^    public String toString() {$/;"	m	class:JWBoard
+toString	java/javawars/JWRobotWrapper.java	/^    public String toString() {$/;"	m	class:JWRobotWrapper
+toString	java/javawars/client/data/SessionConstants.java	/^    public String toString() {$/;"	m	class:SessionConstants
+toString	java/javawars/domain/IpAddress.java	/^    public String toString() {$/;"	m	class:IpAddress
+toString	java/javawars/domain/MatchReport.java	/^    public String toString() {$/;"	m	class:MatchReport
+toString	java/javawars/domain/Robot.java	/^    public String toString() {$/;"	m	class:Robot
+toString	java/javawars/domain/User.java	/^    public String toString() {$/;"	m	class:User
+toXml	java/javawars/JWBoard.java	/^    public void toXml(JWXML jwxml) {$/;"	m	class:JWBoard
+trashFocus	java/javawars/client/ui/Page.java	/^    protected static final void trashFocus() {$/;"	m	class:Page
+updateJwxml	java/javawars/JWMatch.java	/^    private void updateJwxml(JWXML jwxml) {$/;"	m	class:JWMatch	file:
+updateRobotCode	java/javawars/client/services/ServiceProvider.java	/^    public String updateRobotCode(String robotName, String newCode);$/;"	m	interface:ServiceProvider
+updateRobotCode	java/javawars/client/services/ServiceProviderAsync.java	/^    public void updateRobotCode(String robotName, String newCode, AsyncCallback callback);$/;"	m	interface:ServiceProviderAsync
+updateRobotCode	java/javawars/server/services/ServiceProviderImpl.java	/^    public String updateRobotCode(String robotName, String newCode) {$/;"	m	class:ServiceProviderImpl
+updateStyle	java/javawars/client/ui/Page.java	/^    protected abstract void updateStyle();$/;"	m	class:Page
+updateStyle	java/javawars/client/ui/PageWithHorizontalMenu.java	/^    protected final void updateStyle() {$/;"	m	class:PageWithHorizontalMenu
+updateStyle	java/javawars/client/ui/PageWithNoMenu.java	/^    protected final void updateStyle(){$/;"	m	class:PageWithNoMenu
+updateStyle	java/javawars/client/ui/PageWithVerticalMenu.java	/^    protected final void updateStyle() {$/;"	m	class:PageWithVerticalMenu
+updateTimer	java/javawars/client/ui/MatchViewerClassic.java	/^        private void updateTimer(){$/;"	m	class:MatchViewerClassic.Display	file:
+updateTimers	java/javawars/client/ui/MatchViewerClassic.java	/^            public void updateTimers(){$/;"	m	class:MatchViewerClassic.Display.RobotsInfo
+url	java/javawars/client/ui/Page.java	/^    private final String url;$/;"	f	class:Page	file:
+urls	java/javawars/client/ui/Page.java	/^    private static final Map<String, Integer> urls = new HashMap<String, Integer>();$/;"	f	class:Page	file:
+userDAO	java/javawars/server/services/ServiceProviderImpl.java	/^    UserDAO userDAO;$/;"	f	class:ServiceProviderImpl
+userExists	java/javawars/server/dao/UserDAO.java	/^    public boolean userExists(String login){$/;"	m	class:UserDAO
+userWithMailExists	java/javawars/server/dao/UserDAO.java	/^    public boolean userWithMailExists(String email){$/;"	m	class:UserDAO
+users	java/javawars/domain/IpAddress.java	/^    private List<User> users = new ArrayList<User>();$/;"	f	class:IpAddress	file:
+users	java/javawars/domain/League.java	/^    private Set<User> users = new HashSet<User>();$/;"	f	class:League	file:
+users	java/javawars/domain/Robot.java	/^    private Set<User> users = new HashSet<User>();$/;"	f	class:Robot	file:
+waitTime	java/javawars/client/ui/MatchViewerClassic.java	/^        int waitTime;$/;"	f	class:MatchViewerClassic.Robot
+width	java/javawars/JWBoard.java	/^    private final int width,  height;$/;"	f	class:JWBoard	file:
+width	java/javawars/client/ui/MatchViewerClassic.java	/^        private final int width;$/;"	f	class:MatchViewerClassic.Board	file:
+width	java/javawars/domain/League.java	/^    private int width;$/;"	f	class:League	file:
+wins	java/javawars/domain/Robot.java	/^    private int wins;$/;"	f	class:Robot	file:
+wins	java/javawars/domain/User.java	/^    private int wins;$/;"	f	class:User	file:
+workshop	java/javawars/client/pages/RobotPage.java	/^    private final Workshop workshop;$/;"	f	class:RobotPage	file:
+writeTag	java/javawars/JWXML.java	/^    public void writeTag(String text) {$/;"	m	class:JWXML
+x	java/javawars/actions/Shoot.java	/^    private int x,  y,  power;$/;"	f	class:Shoot	file:
+x	java/javawars/client/ui/MatchViewerClassic.java	/^            private final int elevation, gem, robot, x, y;$/;"	f	class:MatchViewerClassic.Display.InteractiveCell	file:
+x	java/javawars/client/ui/MatchViewerFast.java	/^        public int x;$/;"	f	class:MatchViewerFast.Robot
+xmlDescription	java/javawars/domain/MatchReport.java	/^    private String xmlDescription;$/;"	f	class:MatchReport	file:
+y	java/javawars/actions/Shoot.java	/^    private int x,  y,  power;$/;"	f	class:Shoot	file:
+y	java/javawars/client/ui/MatchViewerClassic.java	/^            private final int elevation, gem, robot, x, y;$/;"	f	class:MatchViewerClassic.Display.InteractiveCell	file:
+y	java/javawars/client/ui/MatchViewerFast.java	/^        public int y;$/;"	f	class:MatchViewerFast.Robot

@@ -12,7 +12,7 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost/javawars?characterEncoding=UTF-8&amp;useUnicode=true"/>
         <property name="username" value="root"/>
-        <property name="password" value="******"/>
+        <property name="password" value="21qwsazx"/>
     </bean>
     
     <bean id="mySessionFactory" 

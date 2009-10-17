@@ -1,4 +1,4 @@
-Reachable types computed on: Mon Sep 07 18:47:46 CEST 2009
+Reachable types computed on: Sat Oct 17 15:55:16 CEST 2009
 com.google.gwt.i18n.client.impl.DateRecord
    Serialization status
       Instantiable
@@ -124,6 +124,13 @@ java.util.ArrayList<javawars.domain.Robot>
       'java.util.ArrayList<javawars.domain.Robot>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.Robot>'
       Started from 'java.util.List<javawars.domain.Robot>'
 
+java.util.ArrayList<javawars.domain.League>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.League>'
+      Started from 'java.util.List<javawars.domain.League>'
+
 java.util.ArrayList<javawars.domain.User>
    Serialization status
       Instantiable
@@ -135,8 +142,8 @@ java.util.ArrayList<javawars.domain.User>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -148,8 +155,8 @@ java.util.ArrayList<javawars.domain.IpAddress>
       'java.util.ArrayList<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -160,13 +167,6 @@ java.util.ArrayList<javawars.domain.MatchReport>
    Path
       'java.util.ArrayList<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.MatchReport>'
       Started from 'java.util.List<javawars.domain.MatchReport>'
-
-java.util.ArrayList<javawars.domain.League>
-   Serialization status
-      Instantiable
-   Path
-      'java.util.ArrayList<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.League>'
-      Started from 'java.util.List<javawars.domain.League>'
 
 java.util.Arrays.ArrayList<java.lang.String>
    Serialization status
@@ -182,13 +182,6 @@ java.util.Arrays.ArrayList<javawars.domain.Robot>
       'java.util.Arrays.ArrayList<javawars.domain.Robot>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.Robot>'
       Started from 'java.util.List<javawars.domain.Robot>'
 
-java.util.Arrays.ArrayList<javawars.domain.League>
-   Serialization status
-      Instantiable
-   Path
-      'java.util.Arrays.ArrayList<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.League>'
-      Started from 'java.util.List<javawars.domain.League>'
-
 java.util.Arrays.ArrayList<javawars.domain.User>
    Serialization status
       Instantiable
@@ -200,8 +193,8 @@ java.util.Arrays.ArrayList<javawars.domain.User>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -213,8 +206,8 @@ java.util.Arrays.ArrayList<javawars.domain.IpAddress>
       'java.util.Arrays.ArrayList<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -225,6 +218,13 @@ java.util.Arrays.ArrayList<javawars.domain.MatchReport>
    Path
       'java.util.Arrays.ArrayList<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.MatchReport>'
       Started from 'java.util.List<javawars.domain.MatchReport>'
+
+java.util.Arrays.ArrayList<javawars.domain.League>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.League>'
+      Started from 'java.util.List<javawars.domain.League>'
 
 java.util.Date
    Serialization status
@@ -239,16 +239,15 @@ java.util.HashSet<javawars.domain.MatchReport>
    Serialization status
       Instantiable
    Path
-      'java.util.HashSet<javawars.domain.MatchReport>' is reachable as a supertype of type 'class java.util.LinkedHashSet<javawars.domain.MatchReport>'
-      'java.util.LinkedHashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
+      'java.util.HashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
       'java.util.Set<javawars.domain.MatchReport>' is reachable from field 'matchReports' of type 'javawars.domain.League'
       'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -258,18 +257,23 @@ java.util.HashSet<javawars.domain.League>
       Instantiable
    Path
       'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
-      'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.MatchReport'
-      'javawars.domain.MatchReport' is reachable as a subtype of type 'class javawars.domain.MatchReport'
-      'javawars.domain.MatchReport' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
-      'java.util.Set<javawars.domain.MatchReport>' is reachable from field 'matchReports' of type 'javawars.domain.League'
-      'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
+      'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
+      Started from 'javawars.domain.Robot'
+
+java.util.HashSet<javawars.domain.Robot>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<javawars.domain.Robot>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.Robot>'
+      'java.util.Set<javawars.domain.Robot>' is reachable from field 'robots' of type 'javawars.domain.User'
+      'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -279,28 +283,6 @@ java.util.HashSet<javawars.domain.User>
       Instantiable
    Path
       'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
-      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.League'
-      'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
-      'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
-      'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
-      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
-      'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
-      Started from 'javawars.domain.Robot'
-
-java.util.HashSet<javawars.domain.Robot>
-   Serialization status
-      Instantiable
-   Path
-      'java.util.HashSet<javawars.domain.Robot>' is reachable as a supertype of type 'class java.util.LinkedHashSet<javawars.domain.Robot>'
-      'java.util.LinkedHashSet<javawars.domain.Robot>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.Robot>'
-      'java.util.Set<javawars.domain.Robot>' is reachable from field 'robots' of type 'javawars.domain.User'
-      'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -312,12 +294,12 @@ java.util.LinkedHashSet<javawars.domain.MatchReport>
       'java.util.LinkedHashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
       'java.util.Set<javawars.domain.MatchReport>' is reachable from field 'matchReports' of type 'javawars.domain.League'
       'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -327,10 +309,35 @@ java.util.LinkedHashSet<javawars.domain.League>
       Instantiable
    Path
       'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.MatchReport'
+      'javawars.domain.MatchReport' is reachable as a subtype of type 'class javawars.domain.MatchReport'
+      'javawars.domain.MatchReport' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
+      'java.util.Set<javawars.domain.MatchReport>' is reachable from field 'matchReports' of type 'javawars.domain.League'
+      'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
+      'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
+      Started from 'javawars.domain.Robot'
+
+java.util.LinkedHashSet<javawars.domain.User>
+   Serialization status
+      Instantiable
+   Path
       'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.League'
+      'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
+      'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -342,17 +349,8 @@ java.util.LinkedHashSet<javawars.domain.Robot>
       'java.util.LinkedHashSet<javawars.domain.Robot>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.Robot>'
       'java.util.Set<javawars.domain.Robot>' is reachable from field 'robots' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
-      'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
-      'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
-      Started from 'javawars.domain.Robot'
-
-java.util.LinkedHashSet<javawars.domain.User>
-   Serialization status
-      Instantiable
-   Path
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -389,8 +387,8 @@ java.util.LinkedList<javawars.domain.User>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -402,8 +400,8 @@ java.util.LinkedList<javawars.domain.IpAddress>
       'java.util.LinkedList<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -436,8 +434,8 @@ java.util.Stack<javawars.domain.IpAddress>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -453,8 +451,8 @@ java.util.Stack<javawars.domain.User>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -501,8 +499,8 @@ java.util.Vector<javawars.domain.User>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -515,8 +513,8 @@ java.util.Vector<javawars.domain.IpAddress>
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -553,8 +551,8 @@ javawars.domain.IpAddress
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -567,8 +565,8 @@ javawars.domain.IpAddress[]
       'java.util.Arrays.ArrayList<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -578,12 +576,12 @@ javawars.domain.League
       Instantiable
    Path
       'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -601,16 +599,16 @@ javawars.domain.MatchReport
       Instantiable
    Path
       'javawars.domain.MatchReport' is reachable as a subtype of type 'class javawars.domain.MatchReport'
-      'javawars.domain.MatchReport' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
+      'javawars.domain.MatchReport' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.MatchReport>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.MatchReport>'
       'java.util.Set<javawars.domain.MatchReport>' is reachable from field 'matchReports' of type 'javawars.domain.League'
       'javawars.domain.League' is reachable as a subtype of type 'class javawars.domain.League'
-      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
+      'javawars.domain.League' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.League>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.League>'
       'java.util.Set<javawars.domain.League>' is reachable from field 'leagues' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -643,8 +641,8 @@ javawars.domain.User
       Instantiable
    Path
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
@@ -661,8 +659,8 @@ javawars.domain.User[]
       'java.util.Stack<javawars.domain.IpAddress>' is reachable as a subtype of type 'interface java.util.List<javawars.domain.IpAddress>'
       'java.util.List<javawars.domain.IpAddress>' is reachable from field 'ipAddresses' of type 'javawars.domain.User'
       'javawars.domain.User' is reachable as a subtype of type 'class javawars.domain.User'
-      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
-      'java.util.LinkedHashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
+      'javawars.domain.User' is reachable from type argument 0 of type 'java.util.HashSet<E>'
+      'java.util.HashSet<javawars.domain.User>' is reachable as a subtype of type 'interface java.util.Set<javawars.domain.User>'
       'java.util.Set<javawars.domain.User>' is reachable from field 'users' of type 'javawars.domain.Robot'
       'javawars.domain.Robot' is reachable as a subtype of type 'class javawars.domain.Robot'
       Started from 'javawars.domain.Robot'
