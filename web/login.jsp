@@ -1,6 +1,4 @@
 
-
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -29,7 +27,7 @@
                         </ul> 
                     </li>
                 </ol>
-                
+                <p>Kontakt, informacje o bledach: <i>javawars(at)gmail.com</i></p>
             </div>
 
             <h2> Logowanie / rejestracja: </h2>

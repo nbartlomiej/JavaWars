@@ -51,6 +51,7 @@ public interface ServiceProviderAsync {
     public void getLeagues(AsyncCallback callback);
     
     public void subscribeToLeague(String leagueName, AsyncCallback callback);
+    public void unsubscribeFromLeague(AsyncCallback callback);
     
     public void doMatch(AsyncCallback callback);
     

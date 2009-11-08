@@ -38,6 +38,7 @@ import javawars.client.ui.DateFormatter;
 import javawars.client.ui.PageWithNoMenu;
 import javawars.client.ui.SpacerFactory;
 import javawars.domain.User;
+import javawars.domain.League;
 
 /**
  *
@@ -108,10 +109,11 @@ public class Account extends PageWithNoMenu {
 
                 public void onSuccess(SessionConstants sessionConstants) {
                     User user = sessionConstants.getCurrentuser();
+
                     userLogin.setHTML("<h2>"+user.getLogin()+"</h2>");
                     userLastLoginDate.setText(DateFormatter.extractDateAndHour(user.getLastLoginDate()));
                     userCreationDate.setText(DateFormatter.extractDateAndHour(user.getCreationDate()));
-                    
+
                     // storing the current user's login for future refreshes
                     currentUser.setLogin(user.getLogin());
                     

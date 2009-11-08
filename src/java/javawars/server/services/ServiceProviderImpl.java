@@ -619,6 +619,14 @@ public class ServiceProviderImpl extends HibernateRemoteService implements
 
     }
 
+    public void unsubscribeFromLeague() throws AuthenticationException {
+        User user = getCurrentUser();
+        if (user.getLeagues() != null){
+            user.getLeagues().clear();
+        }
+        userDAO.saveOrUpdateUser(user);
+    }
+
     public League subscribeToLeague(String leagueName) throws AuthenticationException {
 
         try {

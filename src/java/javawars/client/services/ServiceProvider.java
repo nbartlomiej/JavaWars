@@ -137,6 +137,11 @@ public interface ServiceProvider extends RemoteService{
     
     
     public League subscribeToLeague(String leagueName) throws AuthenticationException;
+
+    /**
+     * Unsubscribes the user from his current league
+     */
+    public void unsubscribeFromLeague() throws AuthenticationException;
     
     public void doMatch();
     

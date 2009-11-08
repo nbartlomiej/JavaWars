@@ -83,8 +83,8 @@ public class LeaguePage extends PageWithHorizontalMenu {
         this.leagues = leagues;
         
         final Button subscribeButton = new Button("zapisz się");
-        final AsyncCallback refreshLeagues = new AsyncCallback(){
 
+        final AsyncCallback subscriptionResult = new AsyncCallback(){
             public void onFailure(Throwable throwable) {
                 subscribeButton.setEnabled(true);
                 if (throwable instanceof AuthenticationException){
@@ -98,17 +98,35 @@ public class LeaguePage extends PageWithHorizontalMenu {
                 subscribeButton.setEnabled(true);
                 History.newItem("Leagues");
             }
-            
         };
         
         subscribeButton.addClickListener(new ClickListener() {
-
             public void onClick(Widget arg0) {
                 subscribeButton.setEnabled(false);
-                DataProvider.getInstance().getService().subscribeToLeague(league.getName(), refreshLeagues);
+                DataProvider.getInstance().getService().subscribeToLeague(league.getName(), subscriptionResult);
             }
         });
                 
+        final Button unsubscribeButton = new Button("wypisz mnie z tej ligi");
+
+        final AsyncCallback unsubscriptionResult = new AsyncCallback(){
+            public void onFailure(Throwable throwable) {
+                unsubscribeButton.setEnabled(true);
+                Window.alert("Wystąpił nieznany błąd.");
+            }
+
+            public void onSuccess(Object arg0) {
+                unsubscribeButton.setEnabled(true);
+                History.newItem("Leagues");
+            }
+        };
+        
+        unsubscribeButton.addClickListener(new ClickListener() {
+            public void onClick(Widget arg0) {
+                unsubscribeButton.setEnabled(false);
+                DataProvider.getInstance().getService().unsubscribeFromLeague(unsubscriptionResult);
+            }
+        });
         tableComposite  = new Composite() {
             private VerticalPanel mainPanel = new VerticalPanel();
             {
@@ -161,6 +179,9 @@ public class LeaguePage extends PageWithHorizontalMenu {
                     public void onSuccess(SessionConstants sessionConstants) {
                         for (User u : league.getUsers() ){
                             if (u.getLogin().equals(sessionConstants.getCurrentuser().getLogin())){
+                                // user already in the league; no need
+                                // to display the subscribe button.
+                                mainPanel.add(unsubscribeButton);
                                 return;
                             }
                         }
