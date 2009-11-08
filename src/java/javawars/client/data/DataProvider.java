@@ -110,7 +110,9 @@ public class DataProvider {
             */
 
             Window.open(GWT.getHostPageBaseURL()+"login.jsp", "_self", "");
-            throw new ConnectException();
+            
+            // todo: delete line below
+            // throw new ConnectException();
             
         }
         public void onSuccess(SessionConstants result) {

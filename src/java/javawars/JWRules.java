@@ -48,7 +48,7 @@ public class JWRules {
     
     /** Creates a new instance of JWRules */
     public JWRules() {
-        gameLength = 300;
+        gameLength = 400;
         maxWaitTimeMs = 1000;
         boardWidth = 12;
         boardHeight = 12;

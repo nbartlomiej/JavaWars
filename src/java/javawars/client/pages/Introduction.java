@@ -132,7 +132,7 @@ class FirstRobot extends PageWithNoMenu {
             firstRobotVP.add(new HTML("<pre>" + interfaceSource + "</pre>"));
             firstRobotVP.add(new HTML("Metoda <b>'nextAction'</b> jest wywoływana za każdym razem gdy Twój robot " +
                     "może wykonać jakąś akcję. Metoda <b>'receiveData'</b> służy do przyjmowania informacji o planszy. " +
-                    "Sprawdź na 'poligonie' jak zachowuje się powyższy robot a potem przejdź do kolejnej lekcji."));
+                    "Sprawdź w zakładce 'test' jak zachowuje się powyższy robot a potem przejdź do kolejnej lekcji."));
         }
     };
 
