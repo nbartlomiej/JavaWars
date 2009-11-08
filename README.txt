@@ -7,7 +7,7 @@ WWW: http://github.com/coriander/JavaWars
 REQUIREMENTS:
  -- Operating system: So far the development has been conducted on linux only (Ubuntu 8.04). Java is said to be portable, so theoretically it's possible to work upon JavaWars on any operating system.
  -- Java: tested on 1.6.0_16, will definitely not work on java 1.4.
- -- Server: Tomcat version 6. Currently tested on apache-tomcat-6.0.20; attention, project doesn't work on version 6.0.18 (errors when logging in).
+ -- Server: Tomcat version 6. Currently tested on apache-tomcat-6.0.20.
  -- Database: tested on MySql 5.0.51; should work also on PostGreSQL and others supported by Hibernate library 
  -- IDE/editor: use your favourite.
 
